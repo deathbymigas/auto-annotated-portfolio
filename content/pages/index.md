@@ -79,6 +79,7 @@ sections:
       actions:
         justifyContent: flex-end
     subtitle: Projects
+    title: Case Studies
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
