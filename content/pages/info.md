@@ -29,7 +29,7 @@ sections:
       time.
 
 
-      Like most designers, I prefer a data-informed approach to my work,
+      Like a lot of designers, I prefer a data-informed approach to my work,
       leveraging both qualitative and quantitative research and analytics to
       create everything from design systems to web apps and native mobile
       experiences.
