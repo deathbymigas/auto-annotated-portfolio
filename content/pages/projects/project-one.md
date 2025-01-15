@@ -8,6 +8,12 @@ description: >-
   I helped Onramp Funds, an Austin-based early-stage lending startup, increase
   onboarding conversions and reduce user churn on the way to over $45M in
   funding.
+featuredImage:
+  type: ImageBlock
+  url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
 ---
 ## Onramp Funds is a startup providing cash advance loans to SMB ecommerce sellers.
 
