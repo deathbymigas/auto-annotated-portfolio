@@ -15,6 +15,14 @@ media:
   caption: Caption of the image
   elementId: ''
 ---
+```
+This is an onboarding UX and UI redesign project I led as a freelance design consultant for Onramp Funds, an Austin-based online lending startup.
+
+Date: July - September 2021
+Role: Lead Product Designer
+Client: 
+```
+
 ## Onramp Funds is a startup providing cash advance loans to SMB ecommerce sellers.
 
 As a new player in this lending space, it was important to optimize registration and onboarding workflows to eliminate dropoff and user churn. I worked with Onramp stakeholders to design a first-time user lending workflow to meet these goals.
@@ -80,4 +88,3 @@ Screenshot of work-in-progress design system documentation for Onramp
 ## Outcome
 
 The redesigned onboarding experience launched in September 2021, and early feedback was overwhelmingly encouraging. The new design system was well-received by the development team and has allowed them to move quickly and efficiently through several product cycles and product updates, with the company ultimately [securing over $45 million in funding to date](https://www.crunchbase.com/organization/onramp-funds).
-
