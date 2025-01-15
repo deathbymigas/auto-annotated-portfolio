@@ -12,9 +12,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: >-
-      Hi there! I’m a product designer with a background in UX, content, and
-      research.
+    title: 'I’m a product designer with a background in UX, content, and research.'
     subtitle: >-
       This is my info—I’m sharing it all this with ya’ll to impress you with all
       the hard work I’ve done in the past few years. Once you’re impressed, you
