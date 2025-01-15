@@ -5,9 +5,9 @@ colors: colors-b
 date: '2021-10-15'
 client: Onramp Funds
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably
-  because I worked with an entire team :) but they definitely followed my lead
-  most of the time.
+  See how I helped Onramp Funds, an Austin-based early-stage lending startup,
+  increase onboarding conversions and reduce user churn on the way to over $45M
+  in funding.
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
