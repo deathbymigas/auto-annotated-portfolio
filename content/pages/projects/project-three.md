@@ -7,10 +7,6 @@ client: Awesome client
 description: >-
   I helped Prism, an early-stage music fintech startup, kickstart its design ops
   and design language system for exponential year-over-year growth.
-featuredImage:
-  type: ImageBlock
-  url: /images/bg3.jpg
-  altText: Project thumbnail image
 media:
   type: ImageBlock
   url: /images/bg3.jpg
