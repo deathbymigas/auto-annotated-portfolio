@@ -44,10 +44,6 @@ sections:
       opportunities where I believe my skills can lead to real, measurable
       outcomes for real people. If that resonates with you, let’s get in touch,
       even if it’s just to say hi.
-    media:
-      type: ImageBlock
-      url: /images/about.jpg
-      altText: Hero image
     styles:
       self:
         height: auto
