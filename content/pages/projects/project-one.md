@@ -15,31 +15,17 @@ media:
   caption: Caption of the image
   elementId: ''
 ---
-`<div style="background: #ccc">`This is an onboarding UX and UI redesign project I led as a freelance design consultant for Onramp Funds, an Austin-based online lending startup.
-<br><br>
-<b>Date:</b> July - September 2021<br>
-<b>Role:</b> Design Lead (Freelance)<br>
-<b>Client: <a href="https\://www\.onrampfunds.com>[Onramp Funds](https://www.onrampfunds.com/)</a><br>`</div>`
-
-
-
-
-
 ## Onramp Funds is a startup providing cash advance loans to SMB ecommerce sellers.
 
 As a new player in this lending space, it was important to optimize registration and onboarding workflows to eliminate dropoff and user churn. I worked with Onramp stakeholders to design a first-time user lending workflow to meet these goals.
 
 The result is a redesigned onboarding and registration workflow that eliminates existing friction points while leveraging design psychology principles to create emotional incentives for new users to complete the signup process.
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/b8010248-b49b-4251-97f1-1d775592cd98/525ec86d-9742-4927-b145-b7ad547fec99/onramp-onboarding-before\(2\).png)
+![](/images/onramp-onboarding-before.png)**BEFORE:** The legacy onboarding experience was form-heavy, often asking for duplicate information from one screen to the next. This experience didn’t do the best job of communicating how much or what type of information would be required, or where the user was in the process.
 
-**BEFORE:** The legacy onboarding experience was form-heavy, often asking for duplicate information from one screen to the next. This experience didn’t do the best job of communicating how much or what type of information would be required, or where the user was in the process.
+![](/images/onramp-onboarding-after.png)**AFTER:** Redesigned onboarding and registration experience using updated design language.
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/b8010248-b49b-4251-97f1-1d775592cd98/be3a9b74-e174-4ca0-9eca-a83ed06c4941/onramp-onboarding-after\(1\).png)
-
-**AFTER:** Redesigned onboarding and registration experience using updated design language.
-
-## The process, in a nutshell:
+## Process:
 
 *   Collaborate with Onramp stakeholders to understand user & business needs, pain points, and requirements.
 
@@ -47,9 +33,7 @@ The result is a redesigned onboarding and registration workflow that eliminates 
 
 *   Synthesize findings and propose updates to onboarding flows and design language system.
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/b8010248-b49b-4251-97f1-1d775592cd98/e36cae38-6ec4-49c4-8a44-8d75ec5d8bff/onramp-onboarding-figma.png)
-
-The initial onboarding experience was form-heavy and lacked a modern look and feel. I worked with Onramp to rethink this signup flow from start to finish, as seen here.
+![](/images/onramp-onboarding-figma.png)The initial onboarding experience was form-heavy and lacked a modern look and feel. I worked with Onramp to rethink this signup flow from start to finish, as seen here.
 
 ## Friction vs. Incentives
 
@@ -58,8 +42,6 @@ Essentially, there are two ways to streamline new user onboarding: reduce fricti
 Once we aligned on this streamlined experienced, I looked at ways to further reduce the emotional friction associated with these types of onboarding and registration experiences.
 
 We redesigned the UI to have a friendlier, more modern look and feel, including “oversized” components and input selectors that felt less intimidating and more conversational. In this spirit, input prompts were rewritten as questions, inspired by chatbot-style onboarding.
-
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/b8010248-b49b-4251-97f1-1d775592cd98/81073d36-97f6-4cf4-a10a-d3b3976e8be8/onramp-mobile.png)
 
 Mobile views highlighting some “friendlier” components and input requirements rewritten as questions. As you can see, there’s a lot of legal and business jargon inherent in the registration process, but these were required by law. The progress bar at the bottom of the screen uses a psychological principle called the endowed progress effect — more on that later.
 
