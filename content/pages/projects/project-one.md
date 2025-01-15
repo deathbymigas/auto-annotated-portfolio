@@ -8,10 +8,6 @@ description: >-
   See how I helped Onramp Funds, an Austin-based early-stage lending startup,
   increase onboarding conversions and reduce user churn on the way to over $45M
   in funding.
-featuredImage:
-  type: ImageBlock
-  url: /images/bg1.jpg
-  altText: Project thumbnail image
 media:
   type: ImageBlock
   url: /images/bg1.jpg
