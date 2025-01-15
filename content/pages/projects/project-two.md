@@ -3,7 +3,7 @@ type: ProjectLayout
 title: Another cool project
 colors: colors-a
 date: '2021-12-20'
-client: Awesome client
+client: Blackboard
 description: >-
   Read about how I took the lead on a market-differentiating UX research and
   design project for Blackboard, an enterprise education technology company.
