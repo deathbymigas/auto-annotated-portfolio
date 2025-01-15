@@ -15,13 +15,15 @@ media:
   caption: Caption of the image
   elementId: ''
 ---
-```
-This is an onboarding UX and UI redesign project I led as a freelance design consultant for Onramp Funds, an Austin-based online lending startup.
+`<div style="background: #ccc">`This is an onboarding UX and UI redesign project I led as a freelance design consultant for Onramp Funds, an Austin-based online lending startup.
+<br><br>
+<b>Date:</b> July - September 2021<br>
+<b>Role:</b> Design Lead (Freelance)<br>
+<b>Client: <a href="https\://www\.onrampfunds.com>[Onramp Funds](https://www.onrampfunds.com/)</a><br>`</div>`
 
-Date: July - September 2021
-Role: Lead Product Designer
-Client: 
-```
+
+
+
 
 ## Onramp Funds is a startup providing cash advance loans to SMB ecommerce sellers.
 
