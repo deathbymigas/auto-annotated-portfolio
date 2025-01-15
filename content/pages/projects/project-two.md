@@ -7,10 +7,6 @@ client: Blackboard
 description: >-
   Read about how I took the lead on a market-differentiating UX research and
   design project for Blackboard, an enterprise education technology company.
-featuredImage:
-  type: ImageBlock
-  url: /images/bg2.jpg
-  altText: Project thumbnail image
 media:
   type: ImageBlock
   url: /images/bg2.jpg
