@@ -39,6 +39,7 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+    title: About
   - type: DividerSection
     styles:
       self:
