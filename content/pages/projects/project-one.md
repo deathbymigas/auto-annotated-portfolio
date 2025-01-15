@@ -3,7 +3,7 @@ type: ProjectLayout
 title: Fintech Onboarding
 colors: colors-b
 date: '2021-10-15'
-client: Awesome client
+client: Onramp Funds
 description: >-
   It’s hard to imagine that I’ve that I wrote all this code by myself, probably
   because I worked with an entire team :) but they definitely followed my lead
