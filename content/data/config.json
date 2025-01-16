@@ -40,7 +40,7 @@
             {
                 "type": "Button",
                 "label": "LinkedIn",
-                "altText": "Email",
+                "altText": "LinkedIn",
                 "url": "mailto:jesseryanbasham@gmail.com",
                 "showIcon": true,
                 "icon": "linkedin",
