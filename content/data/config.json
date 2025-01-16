@@ -5,7 +5,7 @@
         "headerVariant": "variant-c",
         "isSticky": false,
         "title": "Jesse Basham",
-        "isTitleVisible": false,
+        "isTitleVisible": true,
         "primaryLinks": [],
         "socialLinks": [],
         "styles": {
