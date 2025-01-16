@@ -13,5 +13,53 @@
                 "width": "full"
             }
         }
+    },
+    "footer": {
+        "type": "Footer",
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "Projects",
+                "altText": "Projects",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
+            },
+            {
+                "type": "Link",
+                "label": "Info",
+                "altText": "Info",
+                "url": "/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
+            }
+        ],
+        "contacts": {
+            "type": "ContactBlock",
+            "title": "Contact details",
+            "phoneNumber": "850-123-5021",
+            "phoneAltText": "Call us",
+            "email": "john@doe.com",
+            "emailAltText": "Email us",
+            "address": "312 Lovely Street, NY",
+            "addressAltText": "Address",
+            "elementId": ""
+        },
+        "copyrightText": "Copyright text",
+        "styles": {
+            "self": {
+                "width": "narrow",
+                "padding": [
+                    "pt-16",
+                    "pb-16",
+                    "pl-4",
+                    "pr-4"
+                ]
+            }
+        }
     }
 }
