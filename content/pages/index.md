@@ -80,7 +80,7 @@ sections:
   - type: TextSection
     colors: colors-f
     variant: variant-b
-    title: ''
+    title: Hi there!
     text: >
       I grew up in a small town on the Texas-Louisiana border and eventually
       became the first member of my family to pursue a college degree. There
