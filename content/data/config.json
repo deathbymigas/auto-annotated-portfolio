@@ -40,7 +40,7 @@
             {
                 "type": "Button",
                 "label": "Email",
-                "altText": "",
+                "altText": "Email",
                 "url": "/asdf",
                 "showIcon": false,
                 "icon": "arrowRight",
