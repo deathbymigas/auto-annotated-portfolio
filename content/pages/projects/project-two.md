@@ -5,8 +5,8 @@ colors: colors-b
 date: '2021-12-20'
 client: Blackboard
 description: >-
-  I led a market-differentiating UX research and design project for Blackboard,
-  an enterprise education technology company.
+  Learn how I led a market-differentiating UX research and design project for
+  Blackboard, an enterprise education technology company.
 ---
 ## [Learn Ultra](https://www.anthology.com/learn-ultra) is the most recent version of Blackboard’s learning management system (LMS).
 
