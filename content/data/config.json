@@ -44,7 +44,7 @@
                 "url": "mailto:jesseryanbasham@gmail.com",
                 "showIcon": true,
                 "icon": "linkedin",
-                "iconPosition": "right",
+                "iconPosition": "left",
                 "style": "primary",
                 "elementId": ""
             }
