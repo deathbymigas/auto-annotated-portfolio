@@ -136,4 +136,7 @@ sections:
         textAlign: left
       text:
         textAlign: left
+    subtitle: >-
+      I’m a Portland-based designer with a range of experience from startups to
+      enterprise, and from healthcare to edtech.
 ---
