@@ -74,7 +74,7 @@ I wanted to use Brad Frost’s Atomic Design framework as a starting point to ge
 
 ![](https://preview--jessebasham-72709.stackbit.dev/_static/app-assets/public/images/atomic%20design.png)<sub>Anatomy of a date picker: </sub><sub>**Elements**</sub><sub> such as color, text styles, or basic containers combine to form </sub><sub>**components**</sub><sub>. These components then combine to form </sub><sub>**modules**</sub><sub>. For context, talent buyers such as music venues are often juggling multiple prospective events on the same day, making it important to see which dates already have confirmed events at a glance.</sub>
 
-## Complexion Reduction
+#### Complexion Reduction
 
 By the mid-2010s, there was an industry-viral design trend of [complexion reduction](https://medium.com/slate-teams/complexion-reduction-a-new-trend-in-mobile-design-cef033a0b978), characterized by the extraction of unnecessary color, simplified visual elements and cues, and a more prominent visual hierarchy of text elements.
 
@@ -92,7 +92,7 @@ I learned from conversations with Prism’s CTO that developers were mostly usin
 
 ![](/images/route%20sheet.png)<sub>An MVP concept for tour management, demonstrating that Material Design doesn’t have to be totally boring.</sub>
 
-## Outcome
+#### Outcome
 
 We were able to establish greater clarity and consistency throughout the app, as well as shortening the development time for product cycles and reducing the guesswork inherent in translating design comps to functional software. The result was a much improved product whose users would routinely reach out to give positive feedback after a new design rollout, marking a huge win for users, team members, and business leadership.
 
