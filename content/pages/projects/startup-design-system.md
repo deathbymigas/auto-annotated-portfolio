@@ -10,7 +10,7 @@ bottomSections: []
 metaTags: []
 colors: colors-b
 ---
-## Prism is an event booking platform for talent buyers and promoters.
+#### Prism is an event booking platform for talent buyers and promoters.
 
 As an early-stage startup, the company hadn’t yet developed a cohesive design system or implemented processes for the creation, documentation, and use of design patterns and principles.
 
@@ -18,7 +18,7 @@ No standardized processes or documentation meant a lack of consistency in design
 
 As the company’s first designer, solving this was one of my earliest responsibilities. I collaborated with Prism’s product leadership and dev teams to lay the groundwork for a design system capable of meeting the needs of users and team members, as well as new processes and workflows based on current best practices for product teams.
 
-## Here’s what that process looked like:
+#### Here’s what that process looked like:
 
 *   Interview stakeholders to identify pain points and opportunities
 
@@ -32,11 +32,11 @@ As the company’s first designer, solving this was one of my earliest responsib
 
 ![](/images/prism-events-list-after.png)<sub>**AFTER:**</sub><sub> Redesigned events list using the new design language system. Users can more quickly parse the list for important information, and can also expand a specific event list card to see show performance information at a glance.</sub>
 
-## Getting Started
+#### Getting Started
 
 To kick off the project, I spoke to product leadership, developers, and customer success reps to build domain knowledge and an understanding of existing needs and pain points. We identified many opportunities common to an early-stage startup without a formal design team. For example, the culture was very developer-focused, meaning that users weren’t always front and center when framing problems and, as a result, building solutions. There was also a lack of standardized processes or documentation for UX or UI decisions.
 
-## Design Audit
+#### Design Audit
 
 Despite being a relatively young product, the app was loaded with features and complex functionality. The app served many types of users and organizations, with a wide range of roles permissions ranging from talent buyers and venues to promoters and agents. Its uses include keeping detailed and surprisingly complex financial records and reports, generating legal contracts between talent buyers and sellers, viewing/editing complex event calendars, as well as managing potentially hundreds of artists, events, and tours at time.
 
@@ -52,7 +52,7 @@ Consolidating common components like these could help pay down an abundance of U
 
 ![](/images/prism-event-detail-page-after.png)<sub>**AFTER:**</sub><sub> Redesigned Prism event page using the new design language system and a number of UX enhancements.</sub>
 
-## Design Strategy and Direction
+#### Design Strategy and Direction
 
 By this point, we discovered the need for better, consistent documentation as well as a need for a simpler, more consistent UI. We also discovered an opportunity to make life easier on the developers by using Material Design as a starting point for the new design system.
 
@@ -68,7 +68,7 @@ It should be noted that this wasn’t a one-time, wholesale redesign. Most of th
 
 The sequencing of these updates factored into the overall design direction as well as individual design choices. The new look and feel still needed to fit the rest of the app, which was another reason to lean on a lighter UI with minimalist elements.
 
-## Atomic Design
+#### Atomic Design
 
 I wanted to use Brad Frost’s Atomic Design framework as a starting point to get everyone thinking about modular, component-based design, and how reusing a smaller number of visual patterns and its related code could lead to better outcomes for both users and team members. At the time, this was the best mental model for the transformation we had in mind. Instead of a dozen bespoke buttons, now we’d only use three (primary, secondary, tertiary) with various states (enabled, disabled, etc.), and by rule those would only use existing style elements. It may be standard now, but much of this was still an emerging best practice when I joined the team.
 
@@ -86,7 +86,7 @@ Given the scope of the product and the overall density of information on many of
 
 ![](/images/prism-reports-after\(1\).png)<sub>**AFTER:**</sub><sub> Redesigned reports dashboard using the new design language.</sub>
 
-## Material Design
+#### Material Design
 
 I learned from conversations with Prism’s CTO that developers were mostly using Material Angular components to build the product, so it made sense to leverage Material styles as much as possible when designing the new system. Not only would this help keep down scope by avoiding unnecessary customization, it also came with the added benefit of Google’s robust documentation and component libraries.
 
@@ -107,5 +107,5 @@ Ultimately, these product and process improvements helped the company weather an
 >
 > **—**
 >
-> [**Kate Hrdina**](https://www.linkedin.com/in/katehrdina/)**, Former Product Manager, Prism**
+> [**Kate Hrdina**](https://www.linkedin.com/in/katehrdina/)**, Product Manager, Prism**
 
