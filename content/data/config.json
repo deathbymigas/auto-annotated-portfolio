@@ -29,7 +29,7 @@
             },
             {
                 "type": "Link",
-                "label": "Info",
+                "label": "Email",
                 "altText": "Info",
                 "url": "/",
                 "showIcon": false,
