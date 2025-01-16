@@ -32,9 +32,6 @@ As the company’s first designer, solving this was one of my earliest responsib
 
 ![](/images/prism-events-list-after.png)<sub>**AFTER:**</sub><sub> Redesigned events list using the new design language system. Users can more quickly parse the list for important information, and can also expand a specific event list card to see show performance information at a glance.</sub>
 
-| ![](/images/prism-events-before-mobile.png)<sub>**BEFORE:**</sub><sub> Legacy mobile events list.</sub> | ![](/images/prism-events-list-mobile-after.png)<sub>**AFTER:**</sub><sub> Redesigned mobile events list.</sub> |
-| ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-
 ## Getting Started
 
 To kick off the project, I spoke to product leadership, developers, and customer success reps to build domain knowledge and an understanding of existing needs and pain points. We identified many opportunities common to an early-stage startup without a formal design team. For example, the culture was very developer-focused, meaning that users weren’t always front and center when framing problems and, as a result, building solutions. There was also a lack of standardized processes or documentation for UX or UI decisions.
@@ -54,9 +51,6 @@ Consolidating common components like these could help pay down an abundance of U
 ![](/images/prism-event-detail-before.png)<sub>**BEFORE:**</sub><sub> Legacy event page in Prism shows a cluttered, inconsistent design with an unclear visual hierarchy.</sub>
 
 ![](/images/prism-event-detail-page-after.png)<sub>**AFTER:**</sub><sub> Redesigned Prism event page using the new design language system and a number of UX enhancements.</sub>
-
-| ![](/images/prism-event-detail-before-mobile.png)<sub>**BEFORE:**</sub><sub> Legacy event detail page.</sub> | ![](/images/prism-event-detail-mobile-after.png)<sub>**AFTER:**</sub><sub> Redesigned event detail page.</sub> |
-| ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
 
 ## Design Strategy and Direction
 
