@@ -70,6 +70,7 @@ sections:
           - pr-4
         justifyContent: center
         borderStyle: solid
+        borderWidth: 4
       title:
         textAlign: left
       subtitle:
