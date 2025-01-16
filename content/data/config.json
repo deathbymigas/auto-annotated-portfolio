@@ -7,7 +7,16 @@
         "title": "Jesse Basham",
         "isTitleVisible": true,
         "primaryLinks": [],
-        "socialLinks": [],
+        "socialLinks": [
+            {
+                "type": "Social",
+                "label": "Facebook",
+                "altText": "",
+                "url": "https://www.linkedin.com/in/jessebasham",
+                "icon": "linkedin",
+                "elementId": ""
+            }
+        ],
         "styles": {
             "self": {
                 "width": "full"
