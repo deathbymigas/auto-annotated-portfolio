@@ -1,7 +1,7 @@
 ---
 type: ProjectLayout
 title: Design Systems
-date: '2020-02-01'
+date: '2021-02-01'
 client: Prism.fm
 description: >-
   Learn how I helped Prism, an early-stage music fintech startup, kickstart its
