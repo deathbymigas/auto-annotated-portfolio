@@ -9,7 +9,7 @@ description: >-
   onboarding conversions and reduce user churn on the way to over $45M in
   funding.
 ---
-## Onramp Funds is a startup providing cash advance loans to SMB ecommerce sellers.
+### Onramp Funds is a startup providing cash advance loans to SMB ecommerce sellers.
 
 As a new player in this lending space, it was important to optimize registration and onboarding workflows to eliminate dropoff and user churn. I worked with Onramp stakeholders to design a first-time user lending workflow to meet these goals.
 
