@@ -15,7 +15,7 @@ As a new player in this lending space, it was important to optimize registration
 
 The result is a redesigned onboarding and registration workflow that eliminates existing friction points while leveraging design psychology principles to create emotional incentives for new users to complete the signup process.
 
-###### ![](/images/onramp-onboarding-before.png)**<sub>BEFORE:</sub>**<sub> The legacy onboarding experience was form-heavy, often asking for duplicate information from one screen to the next. This experience didn’t do the best job of communicating how much or what type of information would be required, or where the user was in the process.</sub>
+###### ![](/images/onramp-onboarding-before.png)**BEFORE:** The legacy onboarding experience was form-heavy, often asking for duplicate information from one screen to the next. This experience didn’t do the best job of communicating how much or what type of information would be required, or where the user was in the process.
 
 ###### ![](/images/onramp-onboarding-after.png)**AFTER:** Redesigned onboarding and registration experience using updated design language.
 
