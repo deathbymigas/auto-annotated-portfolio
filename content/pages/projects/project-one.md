@@ -9,106 +9,54 @@ description: >-
   increase onboarding conversions and reduce user churn on the way to over $45M
   in funding.
 bottomSections:
-  - type: FeaturedItemsSection
-    title: Value propositions
-    items:
-      - type: FeaturedItem
-        title: I'm Fast
-        subtitle: ''
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
-        featuredImage:
+  - type: TestimonialsSection
+    testimonials:
+      - type: Testimonial
+        quote: >
+          "Our website is the core of our sales strategy. Doris helped us
+          establish an easy-to-maintain Stackbit site with outstanding visuals!"
+        name: John Doe
+        title: CEO at Parks
+        image:
           type: ImageBlock
-          url: >-
-            https://assets.stackbit.com/components/images/default/default-image.png
-          altText: Item image
+          url: /images/person-2.jpg
+          altText: John Doe
           caption: Caption of the image
           elementId: ''
-        actions:
-          - type: Button
-            label: ''
-            altText: ''
-            url: /
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
         elementId: ''
         styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        title: I'm Smart
-        subtitle: ''
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
-        featuredImage:
+          name:
+            fontWeight: 400
+          title:
+            fontWeight: 400
+      - type: Testimonial
+        quote: >
+          “Anytime I have a question, I know I can get in touch with Doris. She
+          always helps me adjust my site to look as perfect as I’d hoped.”
+        name: Johnna Doe
+        title: Product Marketing Manager at Acme
+        image:
           type: ImageBlock
-          url: >-
-            https://assets.stackbit.com/components/images/default/default-image.png
-          altText: Item image
+          url: /images/person-3.jpg
+          altText: Johnna Doe
           caption: Caption of the image
           elementId: ''
-        actions:
-          - type: Button
-            label: ''
-            altText: ''
-            url: /
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
         elementId: ''
         styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        title: I'm Focused
-        subtitle: ''
-        text: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante
-          lorem, tincidunt ac leo efficitur, feugiat tempor odio. Maecenas
-          pharetra ipsum dolor, et iaculis elit ornare ac.
-        featuredImage:
-          type: ImageBlock
-          url: >-
-            https://assets.stackbit.com/components/images/default/default-image.png
-          altText: Item image
-          caption: Caption of the image
-          elementId: ''
-        actions:
-          - type: Button
-            label: ''
-            altText: ''
-            url: /
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            elementId: ''
-        elementId: ''
-        styles:
-          self:
-            textAlign: left
-    actions: []
-    colors: colors-f
-    columns: 1
-    spacingX: 16
-    spacingY: 16
+          name:
+            fontWeight: 400
+          title:
+            fontWeight: 400
+    colors: colors-b
+    variant: variant-b
     elementId: ''
     styles:
       self:
         height: auto
-        width: narrow
+        width: wide
         padding:
           - pt-28
-          - pb-36
+          - pb-28
           - pl-4
           - pr-4
         justifyContent: center
@@ -116,8 +64,6 @@ bottomSections:
         textAlign: left
       subtitle:
         textAlign: left
-      actions:
-        justifyContent: flex-start
 ---
 #### Onramp Funds is a startup providing cash advance loans to SMB ecommerce sellers.
 
