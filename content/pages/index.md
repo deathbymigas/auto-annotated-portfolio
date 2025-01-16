@@ -53,7 +53,7 @@ sections:
     projects:
       - content/pages/projects/fintech-onboarding.md
       - content/pages/projects/startup-design-system.md
-      - content/pages/projects/project-two.md
+      - content/pages/projects/edtech-user-research-design.md
     styles:
       self:
         height: auto
