@@ -106,11 +106,6 @@ sections:
           isRequired: true
           width: 1/2
           type: EmailFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve updates
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
       submitLabel: "Submit \U0001F680"
       styles:
         submitLabel:
