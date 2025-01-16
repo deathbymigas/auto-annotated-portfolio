@@ -28,13 +28,14 @@
                 "elementId": ""
             },
             {
-                "type": "Link",
-                "label": "Email",
-                "altText": "Email",
+                "type": "Button",
+                "label": "Learn more",
+                "altText": "",
                 "url": "mailto:jesseryanbasham@gmail.com",
-                "showIcon": true,
-                "icon": "mail",
-                "iconPosition": "left",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "primary",
                 "elementId": ""
             },
             {
