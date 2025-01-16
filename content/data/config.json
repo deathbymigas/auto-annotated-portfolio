@@ -41,7 +41,7 @@
                 "type": "Button",
                 "label": "Email",
                 "altText": "Email",
-                "url": "/asdf",
+                "url": "mailto:jesseryanbasham@gmail.com",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
