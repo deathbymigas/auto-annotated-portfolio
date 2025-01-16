@@ -80,7 +80,7 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: Let's Work Together
+    title: Interested in Working Together?
     form:
       type: FormBlock
       elementId: sign-up-form
