@@ -96,10 +96,7 @@ I learned from conversations with Prism’s CTO that developers were mostly usin
 
 We were able to establish greater clarity and consistency throughout the app, as well as shortening the development time for product cycles and reducing the guesswork inherent in translating design comps to functional software. The result was a much improved product whose users would routinely reach out to give positive feedback after a new design rollout, marking a huge win for users, team members, and business leadership.
 
-Ultimately, these product and process improvements helped the company weather an industry-threatening pandemic all the way to a successful multi-million dollar funding round. I’m proud to say that my design work was used to [successfully raise over $8 million in Series A funding in 2021](https://prism.fm/blog/product-updates-news/prism-announces-8-million-series-a-funding/).
-
-| # $8M Raised in Series A | # $1.3M Total Revenue (2021) | # 115% Increase YO |
-| ------------------------ | ---------------------------- | ------------------ |
+Ultimately, these product and process improvements helped the company weather an industry-threatening pandemic, generating $1.3 million in total revenue (a 115% increase over year) all the way to a successful [$8 million Series A funding round](https://prism.fm/blog/product-updates-news/prism-announces-8-million-series-a-funding/) in 2021.
 
 ![](/images/figma-user-feedback\(1\).png)<sub>Some of the customer feedback we received during my time at Prism. Evan was our client success rep, btw.</sub>
 
