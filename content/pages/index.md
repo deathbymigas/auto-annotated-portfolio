@@ -87,7 +87,7 @@ sections:
         width: full
         padding:
           - pt-10
-          - pb-36
+          - pb-10
         justifyContent: center
         borderWidth: 1
   - type: TextSection
