@@ -79,7 +79,7 @@ sections:
     title: ''
   - type: TextSection
     colors: colors-f
-    variant: variant-a
+    variant: variant-b
     title: ''
     text: >
       I grew up in a small town on the Texas-Louisiana border and eventually
