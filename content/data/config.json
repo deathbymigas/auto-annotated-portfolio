@@ -46,7 +46,7 @@
             "email": "john@doe.com",
             "emailAltText": "Email us",
             "address": "312 Lovely Street, NY",
-            "addressAltText": "Address",
+            "addressAltText": "",
             "elementId": ""
         },
         "copyrightText": "Copyright text",
