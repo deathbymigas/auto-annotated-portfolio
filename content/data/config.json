@@ -33,7 +33,7 @@
                 "altText": "Email",
                 "url": "mailto:jesseryanbasham@gmail.com",
                 "showIcon": true,
-                "icon": "arrowRight",
+                "icon": "mail",
                 "iconPosition": "right",
                 "elementId": ""
             },
