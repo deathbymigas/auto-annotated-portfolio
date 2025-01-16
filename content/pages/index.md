@@ -52,7 +52,7 @@ sections:
     variant: variant-b
     projects:
       - content/pages/projects/fintech-onboarding.md
-      - content/pages/projects/project-three.md
+      - content/pages/projects/startup-design-system.md
       - content/pages/projects/project-two.md
     styles:
       self:
