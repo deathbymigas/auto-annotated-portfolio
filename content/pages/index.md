@@ -75,6 +75,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: Work
+    subtitle: ''
     title: Work
 ---
