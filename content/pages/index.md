@@ -79,7 +79,7 @@ sections:
     title: ''
   - type: TextSection
     colors: colors-f
-    variant: variant-b
+    variant: variant-a
     title: ''
     text: >
       Time for the "about me" spiel.
