@@ -76,7 +76,7 @@ sections:
       actions:
         justifyContent: flex-end
     subtitle: ''
-    title: Work
+    title: ''
   - type: TextSection
     colors: colors-f
     variant: variant-a
