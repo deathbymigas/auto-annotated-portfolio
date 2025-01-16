@@ -30,7 +30,7 @@
             {
                 "type": "Button",
                 "label": "Email",
-                "altText": "",
+                "altText": "Email",
                 "url": "mailto:jesseryanbasham@gmail.com",
                 "showIcon": false,
                 "icon": "arrowRight",
