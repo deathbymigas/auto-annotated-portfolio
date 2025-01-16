@@ -81,13 +81,44 @@ sections:
     colors: colors-f
     variant: variant-a
     title: The Section Title
-    text: >-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-      Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    text: >
+      ## I’m a Portland-based designer with a range of experience from startups
+      to enterprise, and from healthcare to edtech.
+
+
+      I grew up in a small town on the Texas-Louisiana border and eventually
+      became the first member of my family to pursue a college degree. There
+      wasn’t much to do when I was a kid, so I taught myself HTML, CSS, and
+      Photoshop. Back then, I would sketch wireframes on notebook paper and code
+      websites from scratch in Microsoft Notepad. What can I say? It was the
+      nineties and I wasn’t good at sports. Most CSS was inline and JavaScript
+      was primarily seen as a Flash competitor. We furiously typed out markup in
+      Notepad, and we were proud of it.
+
+
+      My first job out of college was as a copywriter for a nonprofit
+      organization in San Antonio, although I probably spent as much time
+      designing and coding custom email templates as I did writing copy for
+      them. After that, I spent a few years doing content and digital strategy
+      for a San Antonio-based creative agency while transitioning to UX full
+      time.
+
+
+      Like a lot of designers, I prefer a data-informed approach to my work,
+      leveraging both qualitative and quantitative research and analytics to
+      create everything from design systems to web apps and native mobile
+      experiences.
+
+
+      Outside of work, I enjoy good food, music, and sci fi, spending time in
+      nature, and going on hikes with Olivia, my nine-year old Australian
+      shepherd. She’s great.
+
+
+      I value mission-driven projects and organizations and typically pursue
+      opportunities where I believe my skills can lead to real, measurable
+      outcomes for real people. If that resonates with you, let’s get in touch,
+      even if it’s just to say hi.
     elementId: ''
     styles:
       self:
