@@ -1,7 +1,7 @@
 ---
 type: ProjectLayout
 title: Design Systems
-colors: colors-a
+colors: colors-b
 date: '2022-01-22'
 client: Prism.fm
 description: >-
