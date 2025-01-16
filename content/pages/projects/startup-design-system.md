@@ -32,8 +32,8 @@ As the company’s first designer, solving this was one of my earliest responsib
 
 ![](/images/prism-events-list-after.png)<sub>**AFTER:**</sub><sub> Redesigned events list using the new design language system. Users can more quickly parse the list for important information, and can also expand a specific event list card to see show performance information at a glance.</sub>
 
-| ![](/images/prism-events-before-mobile.png)<sub>**BEFORE:**</sub><sub> Legacy mobile events list.</sub> | ![](/images/prism-events-list-mobile-after.png)<sub>**AFTER:**</sub><sub> Redesigned mobile events list.</sub> |
-| ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+|   |   |
+| - | - |
 
 ## Getting Started
 
@@ -53,10 +53,7 @@ Consolidating common components like these could help pay down an abundance of U
 
 ![](/images/prism-event-detail-before.png)<sub>**BEFORE:**</sub><sub> Legacy event page in Prism shows a cluttered, inconsistent design with an unclear visual hierarchy.</sub>
 
-![](/images/prism-event-detail-page-after.png)<sub>**AFTER:**</sub><sub> Redesigned Prism event page using the new design language system and a number of UX enhancements.</sub>
-
-| ![](/images/prism-event-detail-before-mobile.png)<sub>**BEFORE:**</sub><sub> Legacy event detail page.</sub> | ![](/images/prism-event-detail-mobile-after.png)<sub>**AFTER:**</sub><sub> Redesigned event detail page.</sub> |
-| ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
+![](/images/prism-event-detail-page-after.png)**<sub>AFTER:</sub>**<sub> Redesigned Prism event page using the new design language system and a number of UX enhancements.</sub>
 
 ## Design Strategy and Direction
 
