@@ -38,17 +38,6 @@
                 "elementId": ""
             }
         ],
-        "contacts": {
-            "type": "ContactBlock",
-            "title": "Contact details",
-            "phoneNumber": "850-123-5021",
-            "phoneAltText": "Call us",
-            "email": "john@doe.com",
-            "emailAltText": "Email us",
-            "address": "",
-            "addressAltText": "",
-            "elementId": ""
-        },
         "copyrightText": "Resume Email LinkedIn\n",
         "styles": {
             "self": {
