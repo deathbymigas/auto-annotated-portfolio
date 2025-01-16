@@ -31,7 +31,7 @@
                 "type": "Link",
                 "label": "Email",
                 "altText": "Email",
-                "url": "/",
+                "url": "mailto:jesseryanbasham@gmail.com",
                 "showIcon": false,
                 "icon": "arrowRight",
                 "iconPosition": "right",
