@@ -5,9 +5,9 @@ colors: colors-b
 date: '2021-10-15'
 client: Onramp Funds
 description: >-
-  I helped Onramp Funds, an Austin-based early-stage lending startup, increase
-  onboarding conversions and reduce user churn on the way to over $45M in
-  funding.
+  Learn how I helped Onramp Funds, an Austin-based early-stage lending startup,
+  increase onboarding conversions and reduce user churn on the way to over $45M
+  in funding.
 ---
 #### Onramp Funds is a startup providing cash advance loans to SMB ecommerce sellers.
 
