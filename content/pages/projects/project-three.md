@@ -26,14 +26,12 @@ As the company’s first designer, solving this was one of my earliest responsib
 
 *   Introduce new processes and documentation based on opportunities and best practices
 
-![](/images/prism-events-before.png)**BEFORE:** Legacy events list in Prism. This page also doubled as a pseudo-dashboard meant to provide an overview of show performance information, although the information provided was not always intuitive. This came with the tradeoff of being unable to quickly find and navigate to an event.
+![](/images/prism-events-before.png)**<sub>BEFORE:</sub>**<sub> Legacy events list in Prism. This page also doubled as a pseudo-dashboard meant to provide an overview of show performance information, although the information provided was not always intuitive. This came with the tradeoff of being unable to quickly find and navigate to an event.</sub>
 
-![](/images/prism-events-list-after.png)**AFTER:** Redesigned events list using the new design language system. Users can more quickly parse the list for important information, and can also expand a specific event list card to see show performance information at a glance.
+![](/images/prism-events-list-after.png)**<sub>AFTER:</sub>**<sub> Redesigned events list using the new design language system. Users can more quickly parse the list for important information, and can also expand a specific event list card to see show performance information at a glance.</sub>
 
-
-
-| ![](/images/prism-events-before-mobile.png)**BEFORE:** Legacy mobile events list. | ![](/images/prism-events-list-mobile-after.png)**AFTER:** Redesigned mobile events list. |
-| ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| ![](/images/prism-events-before-mobile.png)**<sub>BEFORE:</sub>**<sub> Legacy mobile events list.</sub> | ![](/images/prism-events-list-mobile-after.png)**<sub>AFTER:</sub>**<sub> Redesigned mobile events list.</sub> |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 
 ## Getting Started
 
@@ -45,20 +43,18 @@ Despite being a relatively young product, the app was loaded with features and c
 
 As you might expect, a preliminary design audit revealed a lack of consistency across the product. I documented existing color and component styles, UI copy, and page layouts, identifying inconsistencies and proposing consolidation opportunities where appropriate.
 
-![](/images/prism-audit-buttons.png)Example of inconsistent button styles found across the Prism app.
+![](/images/prism-audit-buttons.png)<sub>Audit of inconsistent button styles found across the Prism app.</sub>
 
 For example, there were almost a dozen button styles being used for primary buttons or actions, with inconsistent colors, depth, borders, shape, and text styles.
 
 Consolidating common components like these could help pay down an abundance of UX and technical debt, but more importantly, these types of inconsistent visual elements led to busy, cluttered pages that often contributed to increased cognitive load for users. This sometimes made relatively simple tasks seem more confusing than they actually were.
 
-![](/images/prism-event-detail-before.png)**BEFORE:** Legacy event page in Prism shows a cluttered, inconsistent design with an unclear visual hierarchy.
+![](/images/prism-event-detail-before.png)**<sub>BEFORE:</sub>**<sub> Legacy event page in Prism shows a cluttered, inconsistent design with an unclear visual hierarchy.</sub>
 
-![](/images/prism-event-detail-page-after.png)**AFTER:** Redesigned Prism event page using the new design language system and a number of UX enhancements.
+![](/images/prism-event-detail-page-after.png)**<sub>AFTER:</sub>**<sub> Redesigned Prism event page using the new design language system and a number of UX enhancements.</sub>
 
-
-
-| ![](/images/prism-event-detail-before-mobile.png)**BEFORE:** Legacy event detail page. | ![](/images/prism-event-detail-mobile-after.png)**AFTER:** Redesigned event detail page. |
-| --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| ![](/images/prism-event-detail-before-mobile.png)**<sub>BEFORE:</sub>**<sub> Legacy event detail page.</sub> | ![](/images/prism-event-detail-mobile-after.png)**<sub>AFTER:</sub>**<sub> Redesigned event detail page.</sub> |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 
 ## Design Strategy and Direction
 
@@ -80,7 +76,7 @@ The sequencing of these updates factored into the overall design direction as we
 
 I wanted to use Brad Frost’s Atomic Design framework as a starting point to get everyone thinking about modular, component-based design, and how reusing a smaller number of visual patterns and its related code could lead to better outcomes for both users and team members. At the time, this was the best mental model for the transformation we had in mind. Instead of a dozen bespoke buttons, now we’d only use three (primary, secondary, tertiary) with various states (enabled, disabled, etc.), and by rule those would only use existing style elements. It may be standard now, but much of this was still an emerging best practice when I joined the team.
 
-![](https://preview--jessebasham-72709.stackbit.dev/_static/app-assets/public/images/atomic%20design.png)Anatomy of a date picker: **Elements** such as color, text styles, or basic containers combine to form **components**. These components then combine to form **modules**. For context, talent buyers such as music venues are often juggling multiple prospective events on the same day, making it important to see which dates already have confirmed events at a glance.
+![](https://preview--jessebasham-72709.stackbit.dev/_static/app-assets/public/images/atomic%20design.png)<sub>Anatomy of a date picker: </sub>**<sub>Elements</sub>**<sub> such as color, text styles, or basic containers combine to form </sub>**<sub>components</sub>**<sub>. These components then combine to form </sub>**<sub>modules</sub>**<sub>. For context, talent buyers such as music venues are often juggling multiple prospective events on the same day, making it important to see which dates already have confirmed events at a glance.</sub>
 
 ## Complexion Reduction
 
@@ -90,15 +86,15 @@ These experiences don’t just make it easier to discern information hierarchy. 
 
 Given the scope of the product and the overall density of information on many of its pages, one of my guiding principles for this redesign was to get the interface out of the way so that users could focus on what is important to them.
 
-![](/images/prism%20reports%20before.gif)**BEFORE:** Legacy reports dashboard.
+![](/images/prism%20reports%20before.gif)**<sub>BEFORE:</sub>**<sub> Legacy reports dashboard.</sub>
 
-![](/images/prism-reports-after\(1\).png)**AFTER:** Redesigned reports dashboard using the new design language.
+![](/images/prism-reports-after\(1\).png)**<sub>AFTER:</sub>**<sub> Redesigned reports dashboard using the new design language.</sub>
 
 ## Material Design
 
 I learned from conversations with Prism’s CTO that developers were mostly using Material Angular components to build the product, so it made sense to leverage Material styles as much as possible when designing the new system. Not only would this help keep down scope by avoiding unnecessary customization, it also came with the added benefit of Google’s robust documentation and component libraries.
 
-![](/images/route%20sheet.png)An MVP concept for tour management, demonstrating that Material Design doesn’t have to be totally boring.
+![](/images/route%20sheet.png)<sub>An MVP concept for tour management, demonstrating that Material Design doesn’t have to be totally boring.</sub>
 
 ## Outcome
 
@@ -106,29 +102,16 @@ We were able to establish greater clarity and consistency throughout the app, as
 
 Ultimately, these product and process improvements helped the company weather an industry-threatening pandemic all the way to a successful multi-million dollar funding round. I’m proud to say that my design work was used to [successfully raise over $8 million in Series A funding in 2021](https://prism.fm/blog/product-updates-news/prism-announces-8-million-series-a-funding/).
 
-# $8M
 
-Raised in Series A
 
-# $1.3M
+| # $8MRaised in Series A | # $1.3MTotal Revenue (2021) | # 115%Increase YO |
+| ----------------------- | --------------------------- | ----------------- |
 
-Total Revenue (2021)
-
-# 115%
-
-Increase YO
-
-![](/images/figma-user-feedback\(1\).png)Some of the customer feedback we received during my time at Prism. Evan was our client success rep, btw.
+![](/images/figma-user-feedback\(1\).png)<sub>Some of the customer feedback we received during my time at Prism. Evan was our client success rep, btw.</sub>
 
 > “Jesse approaches his work with more thoughtfulness than most. He greatly improved our entire company culture by asking tough questions and putting the customer at the center of everything he did. In just a few short months after joining the team, we released a more intuitive, beautiful product than we ever imagined possible.”
 >
->
->
 > **—**
 >
->  
->
-> [**Kate Hrdina**](https://www.linkedin.com/in/katehrdina/)
->
-> **, Former Product Manager, Prism**
+> [**Kate Hrdina**](https://www.linkedin.com/in/katehrdina/)**, Former Product Manager, Prism**
 
