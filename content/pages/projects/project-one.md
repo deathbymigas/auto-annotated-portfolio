@@ -18,7 +18,7 @@ The result is a redesigned onboarding and registration workflow that eliminates 
 
 ![](/images/onramp-onboarding-before.png)<sub>**BEFORE:**</sub><sub> The legacy onboarding experience was form-heavy, often asking for duplicate information from one screen to the next. This experience didn’t do the best job of communicating how much or what type of information would be required, or where the user was in the process.</sub>
 
-![](/images/onramp-onboarding-after.png)**<sub>AFTER:</sub>**<sub> Redesigned onboarding and registration experience using updated design language.</sub>
+![](/images/onramp-onboarding-after.png)<sub>**AFTER:**</sub><sub> Redesigned onboarding and registration experience using updated design language.</sub>
 
 ## Process:
 
@@ -50,8 +50,6 @@ I designed an indeterminate progress indicator to maintain a sense of place and 
 
 [Video capture of a prototype for the redesigned desktop onboarding flow, showcasing a friendlier, more visual experience than the text- and form-heavy legacy flow.](https://youtu.be/0hpJXZT10-M)
 
-Video capture of a prototype for the redesigned desktop onboarding flow, showcasing a friendlier, more visual experience than the text- and form-heavy legacy flow.
-
 ## Design System and Documentation
 
 While designing this workflow, I was also tasked with updating the product’s design system, from the component level up to information architecture and page hierarchy. That meant a lot of thinking about navigation, modals, and how to progressively display information in the appropriate context. It also meant creating and documenting these rules so that they could be understood and repeated when appropriate.
@@ -63,4 +61,3 @@ While designing this workflow, I was also tasked with updating the product’s d
 The redesigned onboarding experience launched in September 2021, and early feedback was overwhelmingly encouraging. The new design system was well-received by the development team and has allowed them to move quickly and efficiently through several product cycles and product updates, with the company ultimately [securing over $45 million in funding to date](https://www.crunchbase.com/organization/onramp-funds).
 
 ![](/images/onramp-shopify-integration-reboarding.png)<sub>Example “reboarding” prompt for a recent Shopify integration rollout, allowing existing Onramp users to connect their Shopify stores to the platform once they are already up and running. This approach is based on the “non-linear onboarding flow” referenced in an earlier example image.</sub>
-
