@@ -29,7 +29,7 @@
             },
             {
                 "type": "Button",
-                "label": "Learn more",
+                "label": "Email",
                 "altText": "",
                 "url": "mailto:jesseryanbasham@gmail.com",
                 "showIcon": false,
