@@ -93,7 +93,9 @@ sections:
   - type: TextSection
     colors: colors-f
     variant: variant-a
-    title: ''
+    title: >-
+      Hi there! I’m Jesse, a Portland-based designer with a range of experience
+      from startups to enterprise, and from healthcare to edtech.
     text: >
       Time for the "about me" spiel.
 
