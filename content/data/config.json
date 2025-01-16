@@ -39,7 +39,7 @@
             },
             {
                 "type": "Button",
-                "label": "Learn more",
+                "label": "Email",
                 "altText": "",
                 "url": "/asdf",
                 "showIcon": false,
