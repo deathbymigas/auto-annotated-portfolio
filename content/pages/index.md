@@ -82,7 +82,7 @@ sections:
     variant: variant-b
     title: ''
     text: >
-      Time for the "about me" spiel.
+      Get ready for the "about me" spiel.
 
 
       I grew up in a small town on the Texas-Louisiana border and eventually
