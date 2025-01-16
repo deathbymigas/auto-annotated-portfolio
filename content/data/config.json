@@ -28,14 +28,7 @@
     },
     "footer": {
         "type": "Footer",
-        "primaryLinks": [
-            {
-                "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
-            }
-        ],
+        "primaryLinks": [],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
