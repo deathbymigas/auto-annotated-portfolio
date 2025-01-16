@@ -10,7 +10,7 @@ bottomSections: []
 metaTags: []
 colors: colors-b
 ---
-## [Learn Ultra](https://www.anthology.com/learn-ultra) is the most recent version of Blackboard’s learning management system (LMS).
+#### [Learn Ultra](https://www.anthology.com/learn-ultra) is the most recent version of Blackboard’s learning management system (LMS).
 
 It offers a cleaner, more modern experience than Learn Original, but has fewer capabilities than its predecessor. Although the bulk of the product roadmap for Learn Ultra at this time was in support of gaining feature-parity with Original, my team was tasked with generating concepts for unique capabilities that could serve as market differentiators for Ultra.
 
@@ -42,21 +42,21 @@ The end result was a proof-of-concept for a market-differentiating capability th
 
 *   Collaborate with Product Management and Development teams to build a working proof of concept.
 
-## Process
+#### Process
 
-### Generate conceptual sketches and share with existing users
+##### Generate conceptual sketches and share with existing users
 
 Based on customer feedback from the Blackboard community, there was a clear need for users to import assessments directly from text documents, so we iterated on those initial sketches and started crafting a research plan.
 
-### Conduct generative user research and concept evaluation
+##### Conduct generative user research and concept evaluation
 
 Two sprints of remote research allowed us to better understand how instructors typically create assessments and how those assessments are brought into the LMS. We conducted a round of contextual inquiries plus an additional round of non-observational interviews and concept evaluation.
 
-### Create wireframes, users flows, and functional specs
+##### Create wireframes, users flows, and functional specs
 
 I created lo- and hi-fi wireframes for the primary flows as well as functional specifications for error remediation — for example, what types of errors will instructors most likely encounter when importing these custom documents, and what are the best means to resolve them? I also identified and wrote formatting guidelines for various question and content types — more on that later.
 
-## Research and Synthesis
+#### Research and Synthesis
 
 We conducted 11 sessions with university professors and instructional designers and set up a Mural board to capture our research synthesis after each session, and also coded our data and insights into our internal research database.
 
@@ -68,7 +68,7 @@ Users would like to natively import assessments into the LMS instead of using a 
 
 ![](/images/blackboard-mural-template.png)<sub>Mural board for concept evaluation synthesis</sub>
 
-## Designing for User and System Errors
+#### Designing for User and System Errors
 
 After sharing this research with the team and relevant stakeholders, I began refining user flows and wireframes. The import process needed to be as simple as possible, so we added the option to upload a Word document directly to the Learn Ultra assessment canvas. This is the workspace where users build assessments by adding question and answer content for various question types — multiple choice, essay, fill in the blank, or mathematical calculations, for example — as well as configuring test settings and assigning due dates.
 
@@ -106,7 +106,7 @@ Instructors and faculty could then drill down to specific errors within those ca
 
 ![](/images/blackboard-wireframe-4.png)<sub>Users could then load the edit state of an individual question, save any necessary changes, and mark the item as resolved. In this example, a missing space between the question number and text caused two separate exam items to become merged as one — a common error we uncovered in our research.</sub>
 
-## Outcome
+#### Outcome
 
 A proof of concept went into development in 2019. Shortly after, I left Blackboard to become for [Prism, an Austin-based fintech startup for live events](https://www.notion.so/Design-System-Creation-Implementation-d91e437c64114e4892fdc9028b7066e8?pvs=21). Overall, this project gave me the chance to take the lead on user research and creative problem-solving to translate user needs into market-differentiating product capabilities.
 
@@ -114,5 +114,5 @@ A proof of concept went into development in 2019. Shortly after, I left Blackboa
 
 > “We wanted to meet a seemingly simple client need, but it became more complex as technical and architectural discussions progressed. Jesse’s thorough, well-structured research uncovered opportunities to simplify the project and got us back on track toward delivering this impactful feature for our users.”
 >
-> **—** [**Brad Evans**](https://www.linkedin.com/in/bradeevans/)**, Former Senior Product Manager, Blackboard**
+> **—** [**Brad Evans**](https://www.linkedin.com/in/bradeevans/)**, Senior Product Manager, Blackboard**
 

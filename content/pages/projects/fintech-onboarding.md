@@ -1,7 +1,7 @@
 ---
 type: ProjectLayout
 title: Fintech Onboarding
-date: '2025-01-15'
+date: '2021-09-01'
 client: Onramp Funds
 description: >-
   Learn how I helped Onramp Funds, an Austin-based early-stage lending startup,
@@ -21,7 +21,7 @@ The result is a redesigned onboarding and registration workflow that eliminates 
 
 ![](/images/onramp-onboarding-after.png)<sub>**AFTER:**</sub><sub> Redesigned onboarding and registration experience using updated design language.</sub>
 
-## Process:
+#### Process
 
 *   Collaborate with Onramp stakeholders to understand user & business needs, pain points, and requirements.
 
@@ -31,7 +31,7 @@ The result is a redesigned onboarding and registration workflow that eliminates 
 
 ![](/images/onramp-onboarding-figma.png)<sub>The initial onboarding experience was form-heavy and lacked a modern look and feel. I worked with Onramp to rethink this signup flow from start to finish, as seen here.</sub>
 
-## Friction vs. Incentives
+#### Friction vs. Incentives
 
 Essentially, there are two ways to streamline new user onboarding: reduce friction, or introduce incentives for users to continue forward. I identified several opportunities to reduce the number of form fields overall and create a more intuitive task flow.
 
@@ -47,17 +47,17 @@ Depending on a prospective customer’s business type, verification requirements
 
 I designed an indeterminate progress indicator to maintain a sense of place and progress throughout, creating a sense of achievement each time the user advances to the next step in the onboarding funnel. This is often known as the [endowed progress effect](https://www.jstor.org/stable/10.1086/500480).
 
-## Here’s the redesigned onboarding flow:
+#### Here’s the redesigned onboarding flow:
 
-[Video capture of a prototype for the redesigned desktop onboarding flow, showcasing a friendlier, more visual experience than the text- and form-heavy legacy flow.](https://youtu.be/0hpJXZT10-M)
+Note: if you're seeing this, I'm in the process of migrating this portfolio to a new hosting platform and some visual assets didn't render properly. I'm fixing it as we speak, but in the meantime, here a [video capture of a prototype for the redesigned desktop onboarding flow, showcasing a friendlier, more visual experience than the text- and form-heavy legacy flow.](https://youtu.be/0hpJXZT10-M)
 
-## Design System and Documentation
+#### Design System and Documentation
 
 While designing this workflow, I was also tasked with updating the product’s design system, from the component level up to information architecture and page hierarchy. That meant a lot of thinking about navigation, modals, and how to progressively display information in the appropriate context. It also meant creating and documenting these rules so that they could be understood and repeated when appropriate.
 
 ![](/images/onramp-figma-design-system.png)<sub>Screenshot of work-in-progress design system documentation for Onramp</sub>
 
-## Outcome
+#### Outcome
 
 The redesigned onboarding experience launched in September 2021, and early feedback was overwhelmingly encouraging. The new design system was well-received by the development team and has allowed them to move quickly and efficiently through several product cycles and product updates, with the company ultimately [securing over $45 million in funding to date](https://www.crunchbase.com/organization/onramp-funds).
 
