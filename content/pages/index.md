@@ -119,7 +119,7 @@ sections:
       I value mission-driven projects and organizations and typically pursue
       opportunities where I believe my skills can lead to real, measurable
       outcomes for real people. If that resonates with you, let’s get in touch,
-      even if it’s just to say hi.
+      even if it’s just to say hello!
     elementId: ''
     styles:
       self:
