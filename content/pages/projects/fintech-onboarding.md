@@ -1,7 +1,7 @@
 ---
 type: ProjectLayout
 title: Fintech Onboarding
-date: '2021-01-01'
+date: '2022-01-01'
 client: Onramp Funds
 description: >-
   Learn how I helped Onramp Funds, an Austin-based early-stage lending startup,
