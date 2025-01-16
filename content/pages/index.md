@@ -80,9 +80,7 @@ sections:
   - type: TextSection
     colors: colors-f
     variant: variant-a
-    title: >-
-      I’m a Portland-based designer with a range of experience from startups to
-      enterprise, and from healthcare to edtech.
+    title: ''
     text: >
       I grew up in a small town on the Texas-Louisiana border and eventually
       became the first member of my family to pursue a college degree. There
