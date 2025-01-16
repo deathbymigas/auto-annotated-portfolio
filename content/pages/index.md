@@ -49,7 +49,7 @@ sections:
     showDescription: true
     showFeaturedImage: true
     showReadMoreLink: true
-    variant: variant-d
+    variant: variant-c
     projects:
       - content/pages/projects/project-one.md
       - content/pages/projects/project-three.md
