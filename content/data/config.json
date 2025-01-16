@@ -39,7 +39,7 @@
             },
             {
                 "type": "Button",
-                "label": "Email",
+                "label": "LinkedIn",
                 "altText": "Email",
                 "url": "mailto:jesseryanbasham@gmail.com",
                 "showIcon": true,
