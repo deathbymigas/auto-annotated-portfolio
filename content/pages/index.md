@@ -82,6 +82,9 @@ sections:
     variant: variant-b
     title: ''
     text: >
+      Time for the "about me" spieI. 
+
+
       I grew up in a small town on the Texas-Louisiana border and eventually
       became the first member of my family to pursue a college degree. There
       wasn’t much to do when I was a kid, so I taught myself HTML, CSS, and
