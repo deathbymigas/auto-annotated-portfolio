@@ -28,7 +28,7 @@ The end result was a proof-of-concept for a market-differentiating capability th
 
 ![](/images/blackboard-hifi.png)<sub>Drag and drop import of a Word document into Learn Ultra as a gradable assessment.</sub>
 
-## I’m not a hat person, but I did wear these for a while:
+#### I’m not a hat person, but I did wear these for a while:
 
 *   Ideate and refine initial concept to validate with users.
 
