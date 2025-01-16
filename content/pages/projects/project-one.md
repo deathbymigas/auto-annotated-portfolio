@@ -1,29 +1,66 @@
 ---
 type: ProjectLayout
-title: A very cool code project
-colors: colors-a
-date: '2021-10-15'
-client: Awesome client
+title: Fintech Onboarding
+colors: colors-b
+date: '2025-01-15'
+client: Onramp Funds
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably because I worked with an entire team :) but they definitely followed my lead most of the time.
-featuredImage:
-  type: ImageBlock
-  url: /images/bg1.jpg
-  altText: Project thumbnail image
-media:
-  type: ImageBlock
-  url: /images/bg1.jpg
-  altText: Project image
+  Learn how I helped Onramp Funds, an Austin-based early-stage lending startup,
+  increase onboarding conversions and reduce user churn on the way to over $45M
+  in funding.
+bottomSections: []
 ---
+#### Onramp Funds is a startup providing cash advance loans to SMB ecommerce sellers.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+As a new player in this lending space, it was important to optimize registration and onboarding workflows to eliminate dropoff and user churn. I worked with Onramp stakeholders to design a first-time user lending workflow to meet these goals.
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+The result is a redesigned onboarding and registration workflow that eliminates existing friction points while leveraging design psychology principles to create emotional incentives for new users to complete the signup process.
 
-> “Everybody should learn to program a computer, because it teaches you how to think.”
+![](/images/onramp-onboarding-before.png)<sub>**BEFORE:**</sub><sub> The legacy onboarding experience was form-heavy, often asking for duplicate information from one screen to the next. This experience didn’t do the best job of communicating how much or what type of information would be required, or where the user was in the process.</sub>
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+![](/images/onramp-onboarding-after.png)**<sub>AFTER:</sub>**<sub> Redesigned onboarding and registration experience using updated design language.</sub>
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+## Process:
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+*   Collaborate with Onramp stakeholders to understand user & business needs, pain points, and requirements.
+
+*   Review existing documentation and audit current experience to understand UX, technical, and legal constraints.
+
+*   Synthesize findings and propose updates to onboarding flows and design language system.
+
+![](/images/onramp-onboarding-figma.png)<sub>The initial onboarding experience was form-heavy and lacked a modern look and feel. I worked with Onramp to rethink this signup flow from start to finish, as seen here.</sub>
+
+## Friction vs. Incentives
+
+Essentially, there are two ways to streamline new user onboarding: reduce friction, or introduce incentives for users to continue forward. I identified several opportunities to reduce the number of form fields overall and create a more intuitive task flow.
+
+Once we aligned on this streamlined experienced, I looked at ways to further reduce the emotional friction associated with these types of onboarding and registration experiences.
+
+We redesigned the UI to have a friendlier, more modern look and feel, including “oversized” components and input selectors that felt less intimidating and more conversational. In this spirit, input prompts were rewritten as questions, inspired by chatbot-style onboarding.
+
+![](/images/onramp-mobile\(1\).png)<sub>Mobile views highlighting some “friendlier” components and input requirements rewritten as questions. As you can see, there’s a lot of legal and business jargon inherent in the registration process, but these were required by law. The progress bar at the bottom of the screen uses a psychological principle called the endowed progress effect — more on that later.</sub>
+
+I also looked at ways to create completion incentives to nudge users towards continuing the onboarding process, including gamification techniques and concepts borrowed from cognitive psychology and behavioral economics. *Yeah, yeah*, I know — stop me if you’ve heard this one before, but I actually enjoy nerding out on this stuff.![](/images/onramp-deliverable-figma.png)<sub>Another example client deliverable in Figma. Here you can see a systems diagram of the legacy and proposed onboarding flows, along with potential completion incentives for onboarding users.</sub>
+
+Depending on a prospective customer’s business type, verification requirements, and other input, there could be few or many steps required at each stage of the process. Given this complexity, it was clear that the flow would need to be chunked into a series of dynamic steps.
+
+I designed an indeterminate progress indicator to maintain a sense of place and progress throughout, creating a sense of achievement each time the user advances to the next step in the onboarding funnel. This is often known as the [endowed progress effect](https://www.jstor.org/stable/10.1086/500480).
+
+## Here’s the redesigned onboarding flow:
+
+[Video capture of a prototype for the redesigned desktop onboarding flow, showcasing a friendlier, more visual experience than the text- and form-heavy legacy flow.](https://youtu.be/0hpJXZT10-M)
+
+Video capture of a prototype for the redesigned desktop onboarding flow, showcasing a friendlier, more visual experience than the text- and form-heavy legacy flow.
+
+## Design System and Documentation
+
+While designing this workflow, I was also tasked with updating the product’s design system, from the component level up to information architecture and page hierarchy. That meant a lot of thinking about navigation, modals, and how to progressively display information in the appropriate context. It also meant creating and documenting these rules so that they could be understood and repeated when appropriate.
+
+![](/images/onramp-figma-design-system.png)<sub>Screenshot of work-in-progress design system documentation for Onramp</sub>
+
+## Outcome
+
+The redesigned onboarding experience launched in September 2021, and early feedback was overwhelmingly encouraging. The new design system was well-received by the development team and has allowed them to move quickly and efficiently through several product cycles and product updates, with the company ultimately [securing over $45 million in funding to date](https://www.crunchbase.com/organization/onramp-funds).
+
+![](/images/onramp-shopify-integration-reboarding.png)<sub>Example “reboarding” prompt for a recent Shopify integration rollout, allowing existing Onramp users to connect their Shopify stores to the platform once they are already up and running. This approach is based on the “non-linear onboarding flow” referenced in an earlier example image.</sub>
+

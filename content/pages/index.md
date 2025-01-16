@@ -1,25 +1,19 @@
 ---
 type: PageLayout
 title: Home
-colors: colors-a
+colors: colors-b
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg1.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 75
 sections:
   - elementId: ''
-    colors: colors-f
+    colors: colors-b
     backgroundSize: full
-    title: >-
-      I’m a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
-    subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+    title: 'I’m a product designer with a background in UX, content, and research.'
+    subtitle: ''
     styles:
       self:
         height: auto
@@ -31,7 +25,7 @@ sections:
           - mr-0
         padding:
           - pt-36
-          - pb-48
+          - pb-20
           - pl-4
           - pr-4
         alignItems: center
@@ -47,22 +41,19 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
-  - colors: colors-f
+  - colors: colors-b
     type: FeaturedProjectsSection
     elementId: ''
-    actions:
-      - type: Link
-        label: See all projects
-        url: /projects
+    actions: []
     showDate: false
     showDescription: true
     showFeaturedImage: true
     showReadMoreLink: true
     variant: variant-b
     projects:
-      - content/pages/projects/project-two.md
-      - content/pages/projects/project-three.md
       - content/pages/projects/project-one.md
+      - content/pages/projects/project-three.md
+      - content/pages/projects/project-two.md
     styles:
       self:
         height: auto
@@ -73,124 +64,91 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-24
-          - pb-24
+          - pt-20
+          - pb-16
           - pl-4
           - pr-4
         justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-end
-    subtitle: 'Projects'
-  - type: FeaturedPostsSection
-    elementId: ''
-    colors: colors-f
-    variant: variant-d
-    subtitle: Featured Posts
-    showFeaturedImage: false
-    actions:
-      - type: Link
-        label: See all posts
-        url: /blog
-    posts:
-      - content/pages/blog/post-six.md
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
-    showDate: true
-    showExcerpt: true
-    showReadMoreLink: true
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-28
-          - pb-48
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
+        borderStyle: solid
         borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
       title:
         textAlign: left
       subtitle:
         textAlign: left
       actions:
         justifyContent: flex-end
-  - type: ContactSection
+    subtitle: ''
+    title: ''
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: full
+        padding:
+          - pt-10
+          - pb-10
+        justifyContent: center
+        borderWidth: 1
+  - type: TextSection
     colors: colors-f
-    backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      fields:
-        - name: firstName
-          label: First Name
-          hideLabel: true
-          placeholder: First Name
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
-          width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: 1/2
-          type: EmailFormControl
-        - name: address
-          label: Address
-          hideLabel: true
-          placeholder: Address
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve updates
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
-      styles:
-        submitLabel:
-          textAlign: center
+    variant: variant-a
+    title: ''
+    text: >
+      Time for the "about me" spiel.
+
+
+      I grew up in a small town on the Texas-Louisiana border and eventually
+      became the first member of my family to pursue a college degree. There
+      wasn’t much to do when I was a kid, so I taught myself HTML, CSS, and
+      Photoshop. Back then, I would sketch wireframes on notebook paper and code
+      websites from scratch in Microsoft Notepad. What can I say? It was the
+      nineties and I wasn’t good at sports. Most CSS was inline and JavaScript
+      was primarily seen as a Flash competitor. We furiously typed out markup in
+      Notepad, and we were proud of it.
+
+
+      My first job out of college was as a copywriter for a nonprofit
+      organization in San Antonio, although I probably spent as much time
+      designing and coding custom email templates as I did writing copy for
+      them. After that, I spent a few years doing content and digital strategy
+      for a San Antonio-based creative agency while transitioning to UX full
+      time.
+
+
+      Like a lot of designers, I prefer a data-informed approach to my work,
+      leveraging both qualitative and quantitative research and analytics to
+      create everything from design systems to web apps and native mobile
+      experiences.
+
+
+      Outside of work, I enjoy good food, music, and sci fi, spending time in
+      nature, and going on hikes with Olivia, my nine-year old Australian
+      shepherd. She’s great.
+
+
+      I value mission-driven projects and organizations and typically pursue
+      opportunities where I believe my skills can lead to real, measurable
+      outcomes for real people. If that resonates with you, let’s get in touch,
+      even if it’s just to say hello!
+    elementId: ''
     styles:
       self:
         height: auto
         width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
         padding:
-          - pt-24
-          - pb-24
-          - pr-4
+          - pt-10
+          - pb-10
           - pl-4
-        alignItems: center
+          - pr-4
         justifyContent: center
-        flexDirection: row
       title:
+        textAlign: left
+      subtitle:
         textAlign: left
       text:
         textAlign: left
+    subtitle: >-
+      Hi there! I’m Jesse, a Portland-based designer with a range of experience
+      from startups to enterprise, and from healthcare to edtech.
 ---

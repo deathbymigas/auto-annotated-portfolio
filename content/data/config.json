@@ -1,45 +1,13 @@
 {
     "type": "Config",
-    "favicon": "/images/favicon.svg",
     "header": {
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "Jesse Basham",
         "isTitleVisible": true,
-        "primaryLinks": [
-            {
-                "type": "Link",
-                "label": "Info",
-                "url": "/info"
-            },
-            {
-                "type": "Link",
-                "label": "Projects",
-                "url": "/projects"
-            },
-            {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog"
-            }
-        ],
-        "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
-                "icon": "twitter"
-            },
-            {
-                "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "icon": "github"
-            }
-        ],
+        "primaryLinks": [],
+        "socialLinks": [],
         "styles": {
             "self": {
                 "width": "full"
@@ -50,45 +18,49 @@
         "type": "Footer",
         "primaryLinks": [
             {
-                "type": "Link",
-                "label": "Info",
-                "url": "/info",
-                "altText": ""
+                "type": "Button",
+                "label": "Resume",
+                "altText": "Resume",
+                "url": "/",
+                "showIcon": true,
+                "icon": "arrowRight",
+                "iconPosition": "left",
+                "style": "primary",
+                "elementId": ""
             },
             {
-                "type": "Link",
-                "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
-                "altText": ""
+                "type": "Button",
+                "label": "Email",
+                "altText": "Email",
+                "url": "mailto:jesseryanbasham@gmail.com",
+                "showIcon": true,
+                "icon": "mail",
+                "iconPosition": "left",
+                "style": "primary",
+                "elementId": ""
             },
             {
-                "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
+                "type": "Button",
+                "label": "LinkedIn",
+                "altText": "LinkedIn",
+                "url": "https://www.linkedin.com/in/jessebasham",
+                "showIcon": true,
+                "icon": "linkedin",
+                "iconPosition": "left",
+                "style": "primary",
+                "elementId": ""
             }
         ],
-        "contacts": {
-            "type": "ContactBlock",
-            "title": "Contact details",
-            "phoneNumber": "850-123-5021",
-            "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
-            "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
-            "addressAltText": "My address"
-        },
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+        "copyrightText": "",
         "styles": {
             "self": {
                 "width": "narrow",
-                "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
+                "padding": [
+                    "pt-16",
+                    "pb-16",
+                    "pl-4",
+                    "pr-4"
+                ]
             }
         }
     }
