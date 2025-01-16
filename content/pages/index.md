@@ -93,7 +93,7 @@ sections:
   - type: TextSection
     colors: colors-f
     variant: variant-a
-    title: Hi there!
+    title: ''
     text: >
       Time for the "about me" spiel.
 
