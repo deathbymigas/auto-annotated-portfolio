@@ -1,7 +1,7 @@
 ---
 type: ProjectLayout
 title: Edtech User Research & Design
-date: '2021-12-20'
+date: '2019-02-01'
 client: Blackboard
 description: >-
   Learn how I led a market-differentiating UX research and design project for
