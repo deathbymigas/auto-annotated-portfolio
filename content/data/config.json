@@ -45,7 +45,7 @@
                 "showIcon": true,
                 "icon": "linkedin",
                 "iconPosition": "left",
-                "style": "primary",
+                "style": "secondary",
                 "elementId": ""
             }
         ],
