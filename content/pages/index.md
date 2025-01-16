@@ -10,7 +10,7 @@ backgroundImage:
   opacity: 75
 sections:
   - elementId: ''
-    colors: colors-f
+    colors: colors-a
     backgroundSize: full
     title: 'I’m a product designer with a background in UX, content, and research.'
     subtitle: ''
