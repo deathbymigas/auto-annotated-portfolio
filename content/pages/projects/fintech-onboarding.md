@@ -49,7 +49,7 @@ I designed an indeterminate progress indicator to maintain a sense of place and 
 
 #### Here’s the redesigned onboarding flow:
 
-Note: if you're seeing this, I'm in the process of migrating this portfolio to a new hosting platform and some visual assets didn't render properly. I'm fixing it as we speak, but in the meantime, here a [video capture of a prototype for the redesigned desktop onboarding flow, showcasing a friendlier, more visual experience than the text- and form-heavy legacy flow.](https://youtu.be/0hpJXZT10-M)
+![](/images/onramp-onboarding-flow-after.gif)
 
 #### Design System and Documentation
 
