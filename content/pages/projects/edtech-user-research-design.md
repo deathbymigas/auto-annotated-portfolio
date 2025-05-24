@@ -108,7 +108,7 @@ Instructors and faculty could then drill down to specific errors within those ca
 
 #### Outcome
 
-A proof of concept went into development in 2019. Shortly after, I left Blackboard to become for [Prism, an Austin-based fintech startup for live events](https://www.notion.so/Design-System-Creation-Implementation-d91e437c64114e4892fdc9028b7066e8?pvs=21). Overall, this project gave me the chance to take the lead on user research and creative problem-solving to translate user needs into market-differentiating product capabilities.
+A proof of concept went into development in 2019. Shortly after, I left Blackboard to join [Prism, an Austin-based fintech startup for live events](https://www.notion.so/Design-System-Creation-Implementation-d91e437c64114e4892fdc9028b7066e8?pvs=21). Overall, this project gave me the chance to take the lead on user research and creative problem-solving to translate user needs into market-differentiating product capabilities.
 
 ![](/images/blackboard-load-state.png)<sub>Assessment import load state. For the most part, this wasn’t a UI-heavy project, but it underscores the important work that happens behind the scenes before pixels start getting pushed around. </sub>[<sub>Abraham Lincoln sharpened his axe</sub>](https://www.goodreads.com/quotes/83633-give-me-six-hours-to-chop-down-a-tree-and)<sub>. We use sticky notes.</sub>
 
