@@ -76,6 +76,17 @@ sections:
         justifyContent: center
         borderStyle: solid
         borderWidth: 0
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: full
+        padding:
+          - pt-10
+          - pb-10
+        justifyContent: center
+        borderWidth: 1
       title:
         textAlign: left
       subtitle:
