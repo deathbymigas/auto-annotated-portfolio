@@ -76,6 +76,14 @@ sections:
         justifyContent: center
         borderStyle: solid
         borderWidth: 0
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-end
+    subtitle: ''
+    title: ''
   - type: DividerSection
     title: Divider
     elementId: ''
@@ -87,14 +95,6 @@ sections:
           - pb-10
         justifyContent: center
         borderWidth: 1
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-end
-    subtitle: ''
-    title: ''
   - type: TextSection
     colors: colors-f
     variant: variant-a
