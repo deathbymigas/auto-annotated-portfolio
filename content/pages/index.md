@@ -132,8 +132,7 @@ sections:
 
       I value mission-driven projects and organizations and typically pursue
       opportunities where I believe my skills can lead to real, measurable
-      outcomes for real people. If that resonates with you, let’s get in touch,
-      even if it’s just to say hello!
+      outcomes for real people. If you're working on something meaningful and need a thoughtful, research-driven designer, I’d love to hear from you.
     elementId: ''
     styles:
       self:
