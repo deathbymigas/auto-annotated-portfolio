@@ -72,8 +72,6 @@ The sequencing of these updates factored into the overall design direction as we
 
 I wanted to use Brad Frost’s Atomic Design framework as a starting point to get everyone thinking about modular, component-based design, and how reusing a smaller number of visual patterns and its related code could lead to better outcomes for both users and team members. At the time, this was the best mental model for the transformation we had in mind. Instead of a dozen bespoke buttons, now we’d only use three (primary, secondary, tertiary) with various states (enabled, disabled, etc.), and by rule those would only use existing style elements. It may be standard now, but much of this was still an emerging best practice when I joined the team.
 
-![](https://preview--jessebasham-72709.stackbit.dev/_static/app-assets/public/images/atomic%20design.png)<sub>Anatomy of a date picker: </sub><sub>**Elements**</sub><sub> such as color, text styles, or basic containers combine to form </sub><sub>**components**</sub><sub>. These components then combine to form </sub><sub>**modules**</sub><sub>. For context, talent buyers such as music venues are often juggling multiple prospective events on the same day, making it important to see which dates already have confirmed events at a glance.</sub>
-
 #### Complexion Reduction
 
 By the mid-2010s, there was an industry-viral design trend of [complexion reduction](https://medium.com/slate-teams/complexion-reduction-a-new-trend-in-mobile-design-cef033a0b978), characterized by the extraction of unnecessary color, simplified visual elements and cues, and a more prominent visual hierarchy of text elements.
