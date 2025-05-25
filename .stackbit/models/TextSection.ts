@@ -124,7 +124,7 @@ export const TextSectionModel: Model = {
             styles: {
                 self: {
                     height: ['auto', 'screen'],
-                    width: ['narrow', 'wide', 'full'],
+                    width: wide,
                     margin: ['tw0:96'],
                     padding: ['tw0:96'],
                     justifyContent: ['flex-start', 'flex-end', 'center'],
