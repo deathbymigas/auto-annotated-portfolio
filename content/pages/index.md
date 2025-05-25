@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Home
+title: Jesse Basham | UX & Product Design
 colors: colors-b
 backgroundImage:
   type: BackgroundImage
