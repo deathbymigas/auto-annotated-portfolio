@@ -14,8 +14,9 @@ sections:
     backgroundSize: full
     title: ''
     subtitle: >-
-      10+ yrs shipping fintech, healthcare and ed-tech products thatraise
-      revenue and put users first.
+      I turn complex B2B SaaS workflows into frictionless experiences. 10+ yrs
+      shipping fintech, healthcare and ed-tech products thatraise revenue and
+      put users first.
     styles:
       self:
         height: auto
