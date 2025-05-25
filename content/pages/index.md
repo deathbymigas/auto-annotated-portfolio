@@ -36,6 +36,7 @@ sections:
         alignItems: center
         justifyContent: center
         flexDirection: row-reverse
+        borderWidth: 0
       title:
         textAlign: left
       subtitle:
@@ -84,17 +85,6 @@ sections:
         justifyContent: flex-end
     subtitle: ''
     title: ''
-  - type: DividerSection
-    title: Divider
-    elementId: ''
-    styles:
-      self:
-        width: full
-        padding:
-          - pt-10
-          - pb-10
-        justifyContent: center
-        borderWidth: 1
   - type: TextSection
     colors: colors-f
     variant: variant-a
@@ -147,6 +137,7 @@ sections:
           - pl-4
           - pr-4
         justifyContent: center
+        borderWidth: 0
       title:
         textAlign: left
       subtitle:
