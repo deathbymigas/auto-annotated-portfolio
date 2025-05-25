@@ -85,6 +85,14 @@ sections:
         justifyContent: flex-end
     subtitle: ''
     title: ''
+  - type: DividerSection
+    styles:
+      self:
+        margin:
+          - my-12      # Add vertical margin as desired
+        borderWidth: 1
+        borderColor: border-gray-200  # Or your preferred color class
+        borderStyle: solid
   - type: TextSection
     colors: colors-f
     variant: variant-a
