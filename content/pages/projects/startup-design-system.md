@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Design Systems
+title: 'Design Ops from Zero: Building a Scalable System at Prism'
 date: '2021-01-01'
 client: Prism.fm
 description: >-
