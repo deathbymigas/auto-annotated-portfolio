@@ -12,7 +12,10 @@ sections:
   - elementId: ''
     colors: colors-b
     backgroundSize: full
-    title: 'I’m a product designer with a background in UX, content, and research.'
+    title: >-
+      I turn complex B2B SaaS workflows into frictionless experiences.10+ yrs
+      shipping fintech, healthcare and ed-tech products thatraise revenue and
+      put users first.
     subtitle: ''
     styles:
       self:
