@@ -1,6 +1,8 @@
 ---
 type: ProjectLayout
-title: Edtech User Research & Design
+title: >-
+  Eliminating Third-Party Dependencies: Streamlining Assessment Import for
+  Educators
 date: '2019-05-01'
 client: Blackboard
 description: >-
