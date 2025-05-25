@@ -84,17 +84,6 @@ sections:
         justifyContent: flex-end
     subtitle: ''
     title: ''
-  - type: DividerSection
-    title: Divider
-    elementId: ''
-    styles:
-      self:
-        width: full
-        padding:
-          - pt-10
-          - pb-10
-        justifyContent: center
-        borderWidth: 1
   - type: TextSection
     colors: colors-f
     variant: variant-a
