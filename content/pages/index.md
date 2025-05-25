@@ -12,7 +12,7 @@ sections:
   - elementId: ''
     colors: colors-b
     backgroundSize: full
-    title: I turn complex B2B SaaS workflows into frictionless experiences.
+    title: ''
     subtitle: >-
       10+ yrs shipping fintech, healthcare and ed-tech products thatraise
       revenue and put users first.
