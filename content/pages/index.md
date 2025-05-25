@@ -17,7 +17,7 @@ sections:
       content.
     subtitle: >-
       I turn complex B2B SaaS workflows into frictionless experiences. 10+ yrs
-      shipping fintech, healthcare and ed-tech products thatraise revenue and
+      shipping fintech, healthcare and ed-tech products that raise revenue and
       put users first.
     styles:
       self:
