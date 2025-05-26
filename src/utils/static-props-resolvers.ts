@@ -65,4 +65,3 @@ type ResolverFunction = (props: ContentObject, allData: ContentObject[]) => Cont
         };
     }
 };
-
