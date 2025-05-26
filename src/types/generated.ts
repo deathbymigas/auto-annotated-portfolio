@@ -1,23 +1,21 @@
 import { BaseContentObject } from './base';
 
 export type DataModelType = Config | Person | ThemeStyle;
-export type PageModelType = PageLayout | PostFeedLayout | PostLayout | ProjectFeedLayout | ProjectLayout;
+export type PageModelType = PageLayout | ProjectFeedLayout | ProjectLayout;
 
 export const DATA_MODEL_NAMES = ['Config', 'Person', 'ThemeStyle'];
-export const PAGE_MODEL_NAMES = ['PageLayout', 'PostFeedLayout', 'PostLayout', 'ProjectFeedLayout', 'ProjectLayout'];
+export const PAGE_MODEL_NAMES = ['PageLayout', 'ProjectFeedLayout', 'ProjectLayout'];
 
 export type SectionModels =
     | ContactSection
     | CtaSection
     | DividerSection
     | FeaturedItemsSection
-    | FeaturedPostsSection
     | FeaturedProjectsSection
     | HeroSection
     | LabelsSection
     | MediaGallerySection
     | QuoteSection
-    | RecentPostsSection
     | RecentProjectsSection
     | TestimonialsSection
     | TextSection;
@@ -34,7 +32,6 @@ export type ContentObject =
     | EmailFormControl
     | FeaturedItem
     | FeaturedItemsSection
-    | FeaturedPostsSection
     | FeaturedProjectsSection
     | Footer
     | FormBlock
@@ -48,14 +45,10 @@ export type ContentObject =
     | MetaTag
     | PageLayout
     | Person
-    | PostFeedLayout
-    | PostFeedSection
-    | PostLayout
     | ProjectFeedLayout
     | ProjectFeedSection
     | ProjectLayout
     | QuoteSection
-    | RecentPostsSection
     | RecentProjectsSection
     | SelectFormControl
     | Social
@@ -82,7 +75,6 @@ export type ContentObjectType =
     | 'EmailFormControl'
     | 'FeaturedItem'
     | 'FeaturedItemsSection'
-    | 'FeaturedPostsSection'
     | 'FeaturedProjectsSection'
     | 'Footer'
     | 'FormBlock'
@@ -96,14 +88,10 @@ export type ContentObjectType =
     | 'MetaTag'
     | 'PageLayout'
     | 'Person'
-    | 'PostFeedLayout'
-    | 'PostFeedSection'
-    | 'PostLayout'
     | 'ProjectFeedLayout'
     | 'ProjectFeedSection'
     | 'ProjectLayout'
     | 'QuoteSection'
-    | 'RecentPostsSection'
     | 'RecentProjectsSection'
     | 'SelectFormControl'
     | 'Social'
@@ -258,23 +246,6 @@ export type FeaturedItemsSection = BaseContentObject & {
     styles?: any;
 };
 
-export type FeaturedPostsSection = BaseContentObject & {
-    type: 'FeaturedPostsSection';
-    title?: string;
-    subtitle?: string;
-    actions?: (Button | Link)[];
-    posts?: PostLayout[];
-    colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e' | 'colors-f';
-    variant: 'variant-a' | 'variant-b' | 'variant-c' | 'variant-d';
-    elementId?: string;
-    showDate?: boolean;
-    showAuthor?: boolean;
-    showExcerpt?: boolean;
-    showFeaturedImage?: boolean;
-    showReadMoreLink?: boolean;
-    styles?: any;
-};
-
 export type FeaturedProjectsSection = BaseContentObject & {
     type: 'FeaturedProjectsSection';
     title?: string;
@@ -284,7 +255,6 @@ export type FeaturedProjectsSection = BaseContentObject & {
     colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e' | 'colors-f';
     variant: 'variant-a' | 'variant-b' | 'variant-c' | 'variant-d';
     elementId?: string;
-    showDate?: boolean;
     showDescription?: boolean;
     showFeaturedImage?: boolean;
     showReadMoreLink?: boolean;
@@ -451,57 +421,6 @@ export type Person = BaseContentObject & {
     image?: ImageBlock;
 };
 
-export type PostFeedLayout = BaseContentObject & {
-    type: 'PostFeedLayout';
-    title?: string;
-    postFeed?: PostFeedSection;
-    topSections?: SectionModels[];
-    bottomSections?: SectionModels[];
-    metaTitle?: string;
-    metaDescription?: string;
-    addTitleSuffix?: boolean;
-    socialImage?: string;
-    metaTags?: MetaTag[];
-    colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e';
-    backgroundImage?: BackgroundImage;
-    styles?: any;
-};
-
-export type PostFeedSection = BaseContentObject & {
-    type: 'PostFeedSection';
-    title?: string;
-    subtitle?: string;
-    actions?: (Button | Link)[];
-    colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e' | 'colors-f';
-    variant: 'variant-a' | 'variant-b' | 'variant-c' | 'variant-d';
-    elementId?: string;
-    showDate?: boolean;
-    showAuthor?: boolean;
-    showExcerpt?: boolean;
-    showFeaturedImage?: boolean;
-    showReadMoreLink?: boolean;
-    styles?: any;
-};
-
-export type PostLayout = BaseContentObject & {
-    type: 'PostLayout';
-    title: string;
-    date: string;
-    author?: Person;
-    excerpt?: string;
-    featuredImage?: ImageBlock;
-    media?: ImageBlock | VideoBlock;
-    bottomSections?: SectionModels[];
-    metaTitle?: string;
-    metaDescription?: string;
-    addTitleSuffix?: boolean;
-    socialImage?: string;
-    metaTags?: MetaTag[];
-    colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e';
-    backgroundImage?: BackgroundImage;
-    markdownContent: string;
-};
-
 export type ProjectFeedLayout = BaseContentObject & {
     type: 'ProjectFeedLayout';
     title?: string;
@@ -526,7 +445,6 @@ export type ProjectFeedSection = BaseContentObject & {
     colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e' | 'colors-f';
     variant: 'variant-a' | 'variant-b' | 'variant-c' | 'variant-d';
     elementId?: string;
-    showDate?: boolean;
     showDescription?: boolean;
     showFeaturedImage?: boolean;
     showReadMoreLink?: boolean;
@@ -536,7 +454,6 @@ export type ProjectFeedSection = BaseContentObject & {
 export type ProjectLayout = BaseContentObject & {
     type: 'ProjectLayout';
     title: string;
-    date: string;
     client?: string;
     description?: string;
     featuredImage?: ImageBlock;
@@ -562,22 +479,6 @@ export type QuoteSection = BaseContentObject & {
     styles?: any;
 };
 
-export type RecentPostsSection = BaseContentObject & {
-    type: 'RecentPostsSection';
-    title?: string;
-    subtitle?: string;
-    actions?: (Button | Link)[];
-    colors?: 'colors-a' | 'colors-b' | 'colors-c' | 'colors-d' | 'colors-e' | 'colors-f';
-    variant: 'variant-a' | 'variant-b' | 'variant-c' | 'variant-d';
-    elementId?: string;
-    recentCount?: number;
-    showDate?: boolean;
-    showAuthor?: boolean;
-    showExcerpt?: boolean;
-    showFeaturedImage?: boolean;
-    showReadMoreLink?: boolean;
-    styles?: any;
-};
 
 export type RecentProjectsSection = BaseContentObject & {
     type: 'RecentProjectsSection';
@@ -588,7 +489,6 @@ export type RecentProjectsSection = BaseContentObject & {
     variant: 'variant-a' | 'variant-b' | 'variant-c' | 'variant-d';
     elementId?: string;
     recentCount?: number;
-    showDate?: boolean;
     showDescription?: boolean;
     showFeaturedImage?: boolean;
     showReadMoreLink?: boolean;
