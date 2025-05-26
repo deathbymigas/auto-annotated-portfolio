@@ -34,7 +34,6 @@ export const PostFeedLayoutModel: Model = {
             default: {
                 title: null,
                 subtitle: null,
-                showDate: true,
                 showAuthor: true,
                 variant: 'variant-a'
             }
