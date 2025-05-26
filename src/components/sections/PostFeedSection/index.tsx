@@ -172,7 +172,6 @@ function PostAttribution({ showDate, showAuthor, date, author, className = '' })
     }
     return (
         <div className={className}>
-            {showDate && <time dateTime={dayjs(date).format('YYYY-MM-DD HH:mm:ss')}>{dayjs(date).format('MM-DD-YYYY')}</time>}
             {showAuthor && author && (
                 <>
                     {showDate && ' | '}
