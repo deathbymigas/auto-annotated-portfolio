@@ -4,8 +4,11 @@ import {
     ContentObjectType,
     GlobalProps,
     PageComponentProps,
+    PostLayout,
     ProjectLayout,
+    RecentPostsSection,
     RecentProjectsSection,
+    PostFeedLayout,
     ProjectFeedLayout
 } from '@/types';
 import { deepMapObject } from './data-utils';
@@ -36,7 +39,20 @@ export function resolveStaticProps(urlPath: string, allData: ContentObject[]): P
 
 type ResolverFunction = (props: ContentObject, allData: ContentObject[]) => ContentObject;
 
+const PropsResolvers: Partial<Record<ContentObjectType, ResolverFunction>> = {
+    PostFeedLayout: (props, allData) => {
+        const allPosts = getAllPostsSorted(allData);
+        return {
+            ...(props as PostFeedLayout),
+            items: allPosts
+        };
     },
+    RecentPostsSection: (props, allData) => {
+        const recentPosts = getAllPostsSorted(allData).slice(0, (props as RecentPostsSection).recentCount || 3);
+        return {
+            ...props,
+            posts: recentPosts
+        };
     },
     ProjectLayout: (props, allData) => {
         const allProjects = getAllProjectsSorted(allData);
@@ -65,3 +81,9 @@ type ResolverFunction = (props: ContentObject, allData: ContentObject[]) => Cont
         };
     }
 };
+
+function getAllPostsSorted(objects: ContentObject[]) {
+    const all = objects.filter((object) => object.__metadata?.modelName === 'PostLayout') as PostLayout[];
+    const sorted = all.sort((postA, postB) => new Date(postB.date).getTime() - new Date(postA.date).getTime());
+    return sorted;
+}
