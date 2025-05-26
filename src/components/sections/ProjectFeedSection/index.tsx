@@ -18,7 +18,6 @@ export default function ProjectFeedSection(props) {
         subtitle,
         actions = [],
         projects = [],
-        showDate,
         showDescription,
         showFeaturedImage,
         showReadMoreLink,
@@ -33,7 +32,6 @@ export default function ProjectFeedSection(props) {
             <ProjectFeedVariants
                 variant={variant}
                 projects={projects}
-                showDate={showDate}
                 showDescription={showDescription}
                 showFeaturedImage={showFeaturedImage}
                 showReadMoreLink={showReadMoreLink}
@@ -75,7 +73,7 @@ function ProjectFeedVariants(props) {
 }
 
 function ProjectsVariantABC(props) {
-    const { variant = 'variant-a', projects = [], showDate, showDescription, showFeaturedImage, showReadMoreLink, hasTopMargin } = props;
+    const { variant = 'variant-a', projects = [], showDescription, showFeaturedImage, showReadMoreLink, hasTopMargin } = props;
     if (projects.length === 0) {
         return null;
     }
@@ -100,11 +98,6 @@ function ProjectsVariantABC(props) {
                                 />
                             </div>
                         )}
-                        {showDate && project.date && (
-                            <div className="mb-3">
-                                <ProjectDate date={project.date} />
-                            </div>
-                        )}
                         <h3>{project.title}</h3>
                         {showDescription && project.description && <p className="text-lg mt-5">{project.description}</p>}
                         {showReadMoreLink && (
@@ -123,7 +116,7 @@ function ProjectsVariantABC(props) {
 }
 
 function ProjectsVariantD(props) {
-    const { projects = [], showDate, showDescription, showFeaturedImage, showReadMoreLink, hasTopMargin } = props;
+    const { projects = [], showDescription, showFeaturedImage, showReadMoreLink, hasTopMargin } = props;
     if (projects.length === 0) {
         return null;
     }
@@ -147,12 +140,6 @@ function ProjectsVariantD(props) {
                                     </div>
                                 </div>
                             )}
-                            <div className={classNames('md:grow', showFeaturedImage && project.featuredImage ? null : 'md:ml-12')}>
-                                {showDate && project.date && (
-                                    <div className="mb-3">
-                                        <ProjectDate date={project.date} />
-                                    </div>
-                                )}
                                 <h3>{project.title}</h3>
                                 {showDescription && project.description && <p className="text-lg mt-5">{project.description}</p>}
                             </div>
