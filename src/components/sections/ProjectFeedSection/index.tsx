@@ -135,7 +135,7 @@ function ProjectsVariantD(props) {
         >
             {projects.map((project, index) => (
                 <Link key={index} href={project} className="sb-project-feed-item block group">
-                    <article className="border-b border-current pb-10 md:pb-12 md:px-4">
+                    <article className="border-current pb-10 md:pb-12 md:px-4">
                         <div className="md:flex md:items-center">
                             {showFeaturedImage && project.featuredImage && (
                                 <div className="mb-8 md:shrink-0 md:self-stretch md:w-48 md:mb-0 md:mr-8">
@@ -170,3 +170,10 @@ function ProjectsVariantD(props) {
             ))}
         </div>
     );
+}
+
+function ProjectDate({ date }) {
+    const dateTimeAttr = dayjs(date).format('YYYY-MM-DD HH:mm:ss');
+    const formattedDate = dayjs(date).format('MM-DD-YYYY');
+    return <time dateTime={dateTimeAttr}>{formattedDate}</time>;
+}
