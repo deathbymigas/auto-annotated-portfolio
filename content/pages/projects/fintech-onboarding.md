@@ -2,6 +2,7 @@
 type: ProjectLayout
 title: 'Designing for Conversion: Behavioral Psychology in Fintech Onboarding'
 client: Onramp Funds
+date: 2021
 description: >-
   Learn how I helped Onramp Funds, an Austin-based early-stage lending startup,
   increase onboarding conversions and reduce user churn on the way to over $45M
