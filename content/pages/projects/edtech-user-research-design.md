@@ -3,7 +3,6 @@ type: ProjectLayout
 title: >-
   Eliminating Third-Party Dependencies: Streamlining Assessment Import for
   Educators
-date: '2019-05-01'
 client: Blackboard
 description: >-
   Learn how I led a market-differentiating UX research and design project for
