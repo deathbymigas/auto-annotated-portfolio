@@ -136,13 +136,6 @@ export const ProjectFeedSectionModel: Model = {
         },
         {
             type: 'boolean',
-            name: 'showDate',
-            group: 'settings',
-            label: 'Show project date',
-            default: false
-        },
-        {
-            type: 'boolean',
             name: 'showDescription',
             group: 'settings',
             label: 'Show project description',
