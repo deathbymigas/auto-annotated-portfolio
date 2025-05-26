@@ -33,7 +33,7 @@ export const ProjectFeedLayoutModel: Model = {
             default: {
                 title: null,
                 subtitle: null,
-                showDate: true,
+                showDate: false,
                 showDescription: true,
                 variant: 'variant-a'
             }
