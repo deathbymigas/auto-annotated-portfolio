@@ -25,12 +25,6 @@ export const PostLayoutModel: Model = {
             required: true
         },
         {
-            type: 'date',
-            name: 'date',
-            label: 'Date',
-            required: true
-        },
-        {
             type: 'reference',
             name: 'author',
             label: 'Author',
