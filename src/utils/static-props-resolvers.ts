@@ -36,20 +36,7 @@ export function resolveStaticProps(urlPath: string, allData: ContentObject[]): P
 
 type ResolverFunction = (props: ContentObject, allData: ContentObject[]) => ContentObject;
 
-const PropsResolvers: Partial<Record<ContentObjectType, ResolverFunction>> = {
-    PostFeedLayout: (props, allData) => {
-        const allPosts = getAllPostsSorted(allData);
-        return {
-            ...(props as PostFeedLayout),
-            items: allPosts
-        };
     },
-    RecentPostsSection: (props, allData) => {
-        const recentPosts = getAllPostsSorted(allData).slice(0, (props as RecentPostsSection).recentCount || 3);
-        return {
-            ...props,
-            posts: recentPosts
-        };
     },
     ProjectLayout: (props, allData) => {
         const allProjects = getAllProjectsSorted(allData);
