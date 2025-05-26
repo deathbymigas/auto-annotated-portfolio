@@ -1,5 +1,4 @@
 import * as React from 'react';
-import dayjs from 'dayjs';
 import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
 
@@ -12,9 +11,7 @@ type ComponentProps = PageComponentProps & PostLayout;
 
 const Component: React.FC<ComponentProps> = (props) => {
     const { global, ...page } = props;
-    const { title, date, author, markdownContent, media, bottomSections = [] } = page;
-    const dateTimeAttr = dayjs(date).format('YYYY-MM-DD HH:mm:ss');
-    const formattedDate = dayjs(date).format('MM-DD-YYYY');
+    const { title, author, markdownContent, media, bottomSections = [] } = page;
 
     return (
         <BaseLayout {...props}>
@@ -23,7 +20,6 @@ const Component: React.FC<ComponentProps> = (props) => {
                     <div className="max-w-5xl mx-auto">
                         <header className="mb-10 sm:mb-14">
                             <div className="uppercase mb-4 sm:mb-6">
-                                <time dateTime={dateTimeAttr}>{formattedDate}</time>
                                 {author && (
                                     <>
                                         {' | '}
