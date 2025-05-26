@@ -26,12 +26,6 @@ export const ProjectLayoutModel: Model = {
         },
         {
             type: 'string',
-            name: 'date',
-            label: 'Date',
-            required: false
-        },
-        {
-            type: 'string',
             name: 'client',
             label: 'Client',
             default: 'Awesome client'
