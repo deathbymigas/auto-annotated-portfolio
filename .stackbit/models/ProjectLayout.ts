@@ -25,7 +25,7 @@ export const ProjectLayoutModel: Model = {
             required: true
         },
         {
-            type: 'date',
+            type: 'string',
             name: 'date',
             label: 'Date',
             required: true
