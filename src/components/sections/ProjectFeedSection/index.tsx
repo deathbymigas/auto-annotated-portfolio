@@ -18,7 +18,6 @@ export default function ProjectFeedSection(props) {
         subtitle,
         actions = [],
         projects = [],
-        showDate,
         showDescription,
         showFeaturedImage,
         showReadMoreLink,
@@ -33,7 +32,6 @@ export default function ProjectFeedSection(props) {
             <ProjectFeedVariants
                 variant={variant}
                 projects={projects}
-                showDate={showDate}
                 showDescription={showDescription}
                 showFeaturedImage={showFeaturedImage}
                 showReadMoreLink={showReadMoreLink}
@@ -75,7 +73,7 @@ function ProjectFeedVariants(props) {
 }
 
 function ProjectsVariantABC(props) {
-    const { variant = 'variant-a', projects = [], showDate, showDescription, showFeaturedImage, showReadMoreLink, hasTopMargin } = props;
+    const { variant = 'variant-a', projects = [], showDescription, showFeaturedImage, showReadMoreLink, hasTopMargin } = props;
     if (projects.length === 0) {
         return null;
     }
@@ -91,18 +89,13 @@ function ProjectsVariantABC(props) {
         >
             {projects.map((project, index) => (
                 <Link key={index} href={project} className="sb-project-feed-item block group">
-                    <article className="border-b border-current pb-10 max-w-3xl">
+                    <article className="border-current pb-10 max-w-3xl">
                         {showFeaturedImage && project.featuredImage && (
                             <div className="h-0 w-full mb-6 pt-2/3 relative overflow-hidden">
                                 <ImageBlock
                                     {...project.featuredImage}
                                     className="absolute left-0 top-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
-                            </div>
-                        )}
-                        {showDate && project.date && (
-                            <div className="mb-3">
-                                <ProjectDate date={project.date} />
                             </div>
                         )}
                         <h3>{project.title}</h3>
@@ -123,7 +116,7 @@ function ProjectsVariantABC(props) {
 }
 
 function ProjectsVariantD(props) {
-    const { projects = [], showDate, showDescription, showFeaturedImage, showReadMoreLink, hasTopMargin } = props;
+    const { projects = [], showDescription, showFeaturedImage, showReadMoreLink, hasTopMargin } = props;
     if (projects.length === 0) {
         return null;
     }
@@ -147,12 +140,6 @@ function ProjectsVariantD(props) {
                                     </div>
                                 </div>
                             )}
-                            <div className={classNames('md:grow', showFeaturedImage && project.featuredImage ? null : 'md:ml-12')}>
-                                {showDate && project.date && (
-                                    <div className="mb-3">
-                                        <ProjectDate date={project.date} />
-                                    </div>
-                                )}
                                 <h3>{project.title}</h3>
                                 {showDescription && project.description && <p className="text-lg mt-5">{project.description}</p>}
                             </div>
@@ -165,15 +152,7 @@ function ProjectsVariantD(props) {
                                 </div>
                             )}
                         </div>
-                    </article>
                 </Link>
             ))}
         </div>
     );
-}
-
-function ProjectDate({ date }) {
-    const dateTimeAttr = dayjs(date).format('YYYY-MM-DD HH:mm:ss');
-    const formattedDate = dayjs(date).format('MM-DD-YYYY');
-    return <time dateTime={dateTimeAttr}>{formattedDate}</time>;
-}

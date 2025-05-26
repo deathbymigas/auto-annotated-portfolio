@@ -1,5 +1,4 @@
 import * as React from 'react';
-import dayjs from 'dayjs';
 import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
 
@@ -19,9 +18,7 @@ type ComponentProps = PageComponentProps &
 
 const Component: React.FC<ComponentProps> = (props) => {
     const { global, ...page } = props;
-    const { title, date, client, description, markdownContent, media, prevProject, nextProject, bottomSections = [] } = page;
-    const dateTimeAttr = dayjs(date).format('YYYY-MM-DD HH:mm:ss');
-    const formattedDate = dayjs(date).format('MM-DD-YYYY');
+    const { title, client, description, markdownContent, media, prevProject, nextProject, bottomSections = [] } = page;
 
     return (
         <BaseLayout {...props}>
@@ -32,32 +29,23 @@ const Component: React.FC<ComponentProps> = (props) => {
                             {client && <div className="text-lg uppercase mb-2 md:mb-6">{client}</div>}
                             <div className="md:flex md:justify-between">
                                 <div className="text-lg mb-6 md:mb-0 md:ml-12 md:order-last">
-                                    <time dateTime={dateTimeAttr}>{formattedDate}</time>
                                 </div>
                                 <h1 className="md:max-w-2xl md:flex-grow">{title}</h1>
                             </div>
                         </header>
-                        {description && <div className="text-xl leading-normal uppercase max-w-screen-md mx-auto mb-10 sm:mb-16">{description}</div>}
+                        {description && <div className="text-xl leading-normal uppercase max-w-screen-lg mx-auto mb-10 sm:mb-16">{description}</div>}
                         {media && (
                             <div className="mb-10 sm:mb-16">
                                 <ProjectMedia media={media} />
                             </div>
                         )}
                         {markdownContent && (
-                            <Markdown options={{ forceBlock: true, overrides: { pre: HighlightedPreBlock } }} className="sb-markdown max-w-screen-md mx-auto">
+                            <Markdown options={{ forceBlock: true, overrides: { pre: HighlightedPreBlock } }} className="sb-markdown max-w-screen-lg mx-auto">
                                 {markdownContent}
                             </Markdown>
                         )}
                     </div>
                 </article>
-                {(prevProject || nextProject) && (
-                    <nav className="sb-project-nav px-4 sm:px-8 mt-12 mb-20">
-                        <div className="max-w-5xl mx-auto grid gap-x-6 gap-y-12 md:grid-cols-2 lg:gap-x-8">
-                            {prevProject && <ProjectNavItem project={prevProject} label="Previous project" />}
-                            {nextProject && <ProjectNavItem project={nextProject} label="Next project" />}
-                        </div>
-                    </nav>
-                )}
                 {bottomSections.length > 0 && (
                     <div>
                         {bottomSections.map((section, index) => {

@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Home
+title: Jesse Basham | UX & Product Design
 colors: colors-b
 backgroundImage:
   type: BackgroundImage
@@ -13,7 +13,7 @@ sections:
     colors: colors-b
     backgroundSize: full
     title: >-
-      Hi, I'm Jesse, a product designer with a background in UX, research, and
+      I'm a product designer with a background in UX, research, and
       content.
     subtitle: >-
       I turn complex B2B SaaS workflows into frictionless experiences. 10+ years
@@ -36,6 +36,7 @@ sections:
         alignItems: center
         justifyContent: center
         flexDirection: row-reverse
+        borderWidth: 0
       title:
         textAlign: left
       subtitle:
@@ -70,7 +71,7 @@ sections:
           - mr-0
         padding:
           - pt-20
-          - pb-16
+          - pb-0
           - pl-4
           - pr-4
         justifyContent: center
@@ -85,16 +86,13 @@ sections:
     subtitle: ''
     title: ''
   - type: DividerSection
-    title: Divider
-    elementId: ''
     styles:
       self:
-        width: full
-        padding:
-          - pt-10
-          - pb-10
-        justifyContent: center
+        margin:
+          - my-12      # Add vertical margin as desired
         borderWidth: 1
+        borderColor: border-gray-200  # Or your preferred color class
+        borderStyle: solid
   - type: TextSection
     colors: colors-f
     variant: variant-a
@@ -134,8 +132,7 @@ sections:
 
       I value mission-driven projects and organizations and typically pursue
       opportunities where I believe my skills can lead to real, measurable
-      outcomes for real people. If that resonates with you, let’s get in touch,
-      even if it’s just to say hello!
+      outcomes for real people. If you're working on something meaningful and need a thoughtful, research-driven designer, I’d love to hear from you.
     elementId: ''
     styles:
       self:
@@ -147,6 +144,7 @@ sections:
           - pl-4
           - pr-4
         justifyContent: center
+        borderWidth: 0
       title:
         textAlign: left
       subtitle:
