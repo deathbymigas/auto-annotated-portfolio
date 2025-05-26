@@ -82,9 +82,3 @@ const PropsResolvers: Partial<Record<ContentObjectType, ResolverFunction>> = {
     }
 };
 
-function getAllPostsSorted(objects: ContentObject[]) {
-    const all = objects.filter((object) => object.__metadata?.modelName === 'PostLayout') as PostLayout[];
-    const sorted = all.sort((postA, postB) => new Date(postB.date).getTime() - new Date(postA.date).getTime());
-    return sorted;
-}
-
