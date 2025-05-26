@@ -143,7 +143,7 @@
                                 "iconPosition": "right"
                             }
                         ],
-                        "showDate": true,
+                        "showDate": false,
                         "showAuthor": false,
                         "showExcerpt": true,
                         "showReadMoreLink": true,
