@@ -4,11 +4,8 @@ import {
     ContentObjectType,
     GlobalProps,
     PageComponentProps,
-    PostLayout,
     ProjectLayout,
-    RecentPostsSection,
     RecentProjectsSection,
-    PostFeedLayout,
     ProjectFeedLayout
 } from '@/types';
 import { deepMapObject } from './data-utils';
