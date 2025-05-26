@@ -16,8 +16,8 @@ sections:
       Hi, I'm Jesse, a product designer with a background in UX, research, and
       content.
     subtitle: >-
-      I turn complex B2B SaaS workflows into frictionless experiences. 10+ yrs
-      shipping fintech, healthcare and ed-tech products that raise revenue and
+      I turn complex B2B SaaS workflows into frictionless experiences. 10+ years
+      shipping fintech, healthcare and edtech products that raise revenue and
       put users first.
     styles:
       self:
