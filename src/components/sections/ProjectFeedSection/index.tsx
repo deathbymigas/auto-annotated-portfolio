@@ -152,7 +152,6 @@ function ProjectsVariantD(props) {
                                 </div>
                             )}
                         </div>
-                    </article>
                 </Link>
             ))}
         </div>
